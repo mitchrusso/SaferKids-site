@@ -1,32 +1,92 @@
 export const articleSources = [
   {
+    id: "cpsc-childproofing",
+    title: "Childproofing Your Home",
+    organization: "U.S. Consumer Product Safety Commission",
+    url: "https://www.cpsc.gov/safety-education/safety-guides/kids-and-babies/Childproofing-Your-Home",
+  },
+  {
+    id: "cpsc-child-safety",
     title: "Child Safety",
     organization: "U.S. Consumer Product Safety Commission",
     url: "https://www.cpsc.gov/safety-education/neighborhood-safety-network/toolkits/child-safety",
   },
   {
+    id: "cpsc-recalls",
     title: "Recalls and Product Safety Warnings",
     organization: "U.S. Consumer Product Safety Commission",
     url: "https://www.cpsc.gov/Recalls",
   },
   {
+    id: "safer-products",
     title: "SaferProducts.gov",
     organization: "U.S. Consumer Product Safety Commission",
     url: "https://www.saferproducts.gov/",
   },
   {
+    id: "aap-safe-sleep",
     title: "Safe Sleep",
     organization: "American Academy of Pediatrics",
     url: "https://www.aap.org/en/patient-care/safe-sleep/",
   },
   {
+    id: "healthychildren-safe-sleep",
+    title: "How to Keep Your Sleeping Baby Safe",
+    organization: "HealthyChildren.org",
+    url: "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/a-parents-guide-to-safe-sleep.aspx",
+  },
+  {
+    id: "nhtsa-car-seats",
     title: "Car Seats and Booster Seats",
     organization: "National Highway Traffic Safety Administration",
     url: "https://www.nhtsa.gov/vehicle-safety/car-seats-and-booster-seats",
   },
   {
+    id: "nhtsa-car-seat-finder",
+    title: "Find the Right Car Seat",
+    organization: "National Highway Traffic Safety Administration",
+    url: "https://www.nhtsa.gov/campaign/right-seat",
+  },
+  {
+    id: "nhtsa-ease-of-use",
+    title: "Car Seat Ease-of-Use Ratings",
+    organization: "National Highway Traffic Safety Administration",
+    url: "https://www.nhtsa.gov/car-seats-and-booster-seats/car-seat-ease-use-ratings",
+  },
+  {
+    id: "healthychildren-stroller",
     title: "How to Choose a Safe Baby Stroller",
     organization: "HealthyChildren.org",
     url: "https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/How-to-Buy-a-Safe-Stroller.aspx",
+  },
+  {
+    id: "healthychildren-travel",
+    title: "Flying With Baby: Parent FAQs & Tips for Safer, Easier Air Travel",
+    organization: "HealthyChildren.org",
+    url: "https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Flying-with-Baby.aspx",
+  },
+  {
+    id: "cpsc-small-parts",
+    title: "Small Parts and Choking Hazard Labeling FAQs",
+    organization: "U.S. Consumer Product Safety Commission",
+    url: "https://www.cpsc.gov/FAQ/Small-Parts-and-Choking-Hazard-Labeling-FAQs",
+  },
+  {
+    id: "cpsc-toy-safety",
+    title: "Toy Safety Business Guidance",
+    organization: "U.S. Consumer Product Safety Commission",
+    url: "https://www.cpsc.gov/Business--Manufacturing/Business-Education/Toy-Safety",
+  },
+  {
+    id: "cpsc-anchor-it",
+    title: "Anchor It",
+    organization: "U.S. Consumer Product Safety Commission",
+    url: "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/AnchorItgov",
+  },
+  {
+    id: "cpsc-bike-helmets",
+    title: "Bicycle Helmets Business Guidance",
+    organization: "U.S. Consumer Product Safety Commission",
+    url: "https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Bicycle-Helmets",
   },
 ];

@@ -81,6 +81,12 @@ function getArticleFaqs(article: ResourceArticle) {
   ];
 }
 
+const sourceById = new Map(articleSources.map((source) => [source.id, source]));
+
+function getArticleSources(article: ResourceArticle) {
+  return article.sourceIds.map((sourceId) => sourceById.get(sourceId)).filter((source): source is (typeof articleSources)[number] => Boolean(source));
+}
+
 export function generateStaticParams() {
   return resourceArticles.map((article) => ({
     slug: article.slug,
@@ -145,6 +151,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const recommendedProducts = getRecommendedProducts(article);
   const relatedArticles = getRelatedArticles(article);
   const articleFaqs = getArticleFaqs(article);
+  const sources = getArticleSources(article);
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -270,8 +277,23 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 <h2 className="text-2xl font-black leading-tight">{section.heading}</h2>
                 <div className="mt-4 space-y-4">
                   {section.body.map((paragraph) => (
-                    <p key={paragraph} className="text-base leading-8 text-[#4c5d56]">
-                      {paragraph}
+                    <p key={paragraph.text} className="text-base leading-8 text-[#4c5d56]">
+                      {paragraph.text}
+                      {paragraph.sourceIds.length > 0 ? (
+                        <span className="ml-1 whitespace-nowrap align-super text-xs font-black text-[#0e7a5f]">
+                          {paragraph.sourceIds.map((sourceId, index) => {
+                            const source = sourceById.get(sourceId);
+                            if (!source) return null;
+                            const referenceNumber = sources.findIndex((candidate) => candidate.id === sourceId) + 1;
+                            return (
+                              <a key={sourceId} href={`#ref-${sourceId}`} className="hover:text-[#0a5d49]" aria-label={`Reference ${referenceNumber}: ${source.title}`}>
+                                [{referenceNumber}]
+                                {index < paragraph.sourceIds.length - 1 ? " " : ""}
+                              </a>
+                            );
+                          })}
+                        </span>
+                      ) : null}
                     </p>
                   ))}
                 </div>
@@ -373,17 +395,19 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             </section>
 
             <section className="rounded-lg border border-[#dce5dc] bg-white p-5 shadow-sm">
-              <h2 className="text-xl font-black">Sources and Further Reading</h2>
+              <h2 className="text-xl font-black">References</h2>
               <div className="mt-4 grid gap-3">
-                {articleSources.slice(0, 4).map((source) => (
+                {sources.map((source, index) => (
                   <a
+                    id={`ref-${source.id}`}
                     key={source.url}
                     href={source.url}
                     target="_blank"
                     rel="noreferrer"
                     className="group rounded-lg border border-[#e6ece5] p-4 hover:border-[#0e7a5f]"
                   >
-                    <p className="text-sm font-black group-hover:text-[#0e7a5f]">{source.title}</p>
+                    <p className="text-xs font-black uppercase tracking-[0.12em] text-[#0e7a5f]">[{index + 1}] Reference</p>
+                    <p className="mt-1 text-sm font-black group-hover:text-[#0e7a5f]">{source.title}</p>
                     <p className="mt-1 text-xs font-bold uppercase tracking-[0.1em] text-[#728078]">{source.organization}</p>
                     <span className="mt-3 inline-flex items-center gap-2 text-xs font-black text-[#0e7a5f]">
                       Visit source <ExternalLink className="h-3 w-3" aria-hidden />
