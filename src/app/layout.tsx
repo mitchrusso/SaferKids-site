@@ -25,5 +25,5 @@ export const metadata: Metadata = {
 const websiteJsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Organization", "@id": absoluteUrl("/#organization"), name: siteName, url: siteUrl, sameAs: [] }, { "@type": "WebSite", "@id": absoluteUrl("/#website"), name: siteName, url: siteUrl, publisher: { "@id": absoluteUrl("/#organization") }, inLanguage: "en-US" }] };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}><body className="min-h-full flex flex-col"><script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />{children}</body></html>;
+  return <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning><body className="min-h-full flex flex-col" suppressHydrationWarning><script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />{children}</body></html>;
 }
