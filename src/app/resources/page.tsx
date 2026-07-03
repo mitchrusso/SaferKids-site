@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     url: absoluteUrl("/resources"),
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Child Safety Resources | Safer Kids",
+    description:
+      "Child safety buying guides, recall-aware shopping articles, comparison posts, and safety-first parent resources.",
+    images: ["https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80"],
+  },
 };
 
 export default function ResourcesPage() {
@@ -38,6 +45,28 @@ export default function ResourcesPage() {
         description:
           "Child safety buying guides, recall-aware shopping articles, comparison posts, and safety-first parent resources.",
         inLanguage: "en-US",
+      },
+      {
+        "@type": "ItemList",
+        "@id": absoluteUrl("/resources#published-articles"),
+        name: "Published Safer Kids resource articles",
+        itemListElement: publishedArticles.map((article, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: absoluteUrl(`/resources/${article.slug}`),
+          name: article.title,
+        })),
+      },
+      {
+        "@type": "ItemList",
+        "@id": absoluteUrl("/resources#topic-hubs"),
+        name: "Safer Kids topic hubs",
+        itemListElement: topicHubs.map((hub, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: absoluteUrl(`/resources/topics/${hub.slug}`),
+          name: hub.title,
+        })),
       },
       {
         "@type": "BreadcrumbList",

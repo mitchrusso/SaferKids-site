@@ -45,6 +45,12 @@ export async function generateMetadata({ params }: HubPageProps): Promise<Metada
       ],
       type: "article",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${hub.title} | ${siteName}`,
+      description: hub.description,
+      images: [absoluteUrl(hub.image)],
+    },
   };
 }
 

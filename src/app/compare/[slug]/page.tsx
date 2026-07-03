@@ -39,6 +39,12 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
       images: [{ url: absoluteUrl(page.image), alt: `${page.title} comparison image` }],
       type: "article",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${page.title} | ${siteName}`,
+      description: page.description,
+      images: [absoluteUrl(page.image)],
+    },
   };
 }
 

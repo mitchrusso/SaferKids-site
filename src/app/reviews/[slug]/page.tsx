@@ -39,6 +39,12 @@ export async function generateMetadata({ params }: ReviewPageProps): Promise<Met
       images: [{ url: absoluteUrl(product.image), alt: product.name }],
       type: "article",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.name} Safety Checklist | ${siteName}`,
+      description: product.summary,
+      images: [absoluteUrl(product.image)],
+    },
   };
 }
 

@@ -1,17 +1,21 @@
 # Design QA
 
-Source reviewed: https://unbeatenrolling.com/
+Site reviewed: https://saferkids.com/
 
 ## Verification
 
-- Local app responds at `http://localhost:3001` with HTTP 200.
+- Local app responds at `http://localhost:3003` with HTTP 200.
 - `npm run lint` passes.
 - `npm run build` passes.
-- Compact viewport browser check completed in the in-app browser.
-- No page-level horizontal overflow was found; the comparison table intentionally scrolls horizontally on small screens.
-- Product images, the hero image, affiliate links, footer links, and support pages are present.
+- Homepage, resources, safety checklist pages, topic hubs, comparison pages, legal/trust pages, `robots.txt`, `sitemap.xml`, and `llms.txt` are present.
+- Mobile navigation is available through the menu button.
+- Article links to related posts, topic hubs, and checklist pages open in a new tab.
+- External source links open in a new tab.
+- Amazon CTAs use `rel="sponsored nofollow noreferrer"` and preserve the `mitchellrusso-20` affiliate tag.
+- Product-like pages are structured as safety shopping checklists and avoid unsupported ratings, prices, offers, or availability claims.
 
 ## Notes
 
-- The original support pages linked from the footer returned a server-side 406 response during capture, so the new About, Amazon Disclosure, Privacy Policy, and Contact pages are rebuilt from the visible site context and disclosure language.
-- Amazon CTAs are outbound affiliate links that preserve the original `ur009-20` tracking tag.
+- Safety content is written as general shopping information and directs readers to verify product fit, instructions, recalls, and official guidance.
+- Scheduled resource articles are date-gated and excluded from the sitemap until published.
+- Contact form requires `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`, and `RESEND_API_KEY` in Vercel.
