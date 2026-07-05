@@ -1,0 +1,4 @@
+Contact: https://saferkids.com/contact
+Expires: 2027-07-01T00:00:00Z
+Preferred-Languages: en
+Canonical: https://saferkids.com/.well-known/security.txt
