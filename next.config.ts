@@ -13,6 +13,18 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: "/api/script.js",
+        destination: "https://app.rybbit.io/api/script.js",
+      },
+      {
+        source: "/api/track",
+        destination: "https://app.rybbit.io/api/track",
+      },
+    ];
+  },
   async headers() {
     return [
       {
