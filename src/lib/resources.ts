@@ -1,3 +1,5 @@
+import { approvedResourceArticles } from "./approved-articles";
+
 export type ResourceArticle = {
   title: string;
   slug: string;
@@ -298,7 +300,7 @@ function buildSections(title: string, slug: string, category: string, keywords: 
   ];
 }
 
-export const resourceArticles: ResourceArticle[] = articlePlan.map(([title, slug, publishDate, category, image, keywords]) => ({
+const generatedResourceArticles: ResourceArticle[] = articlePlan.map(([title, slug, publishDate, category, image, keywords]) => ({
   title,
   slug,
   publishDate,
@@ -310,6 +312,11 @@ export const resourceArticles: ResourceArticle[] = articlePlan.map(([title, slug
   sourceIds: sourcesFor(category, slug),
   takeaway: "The safer choice is the product that fits the child, the environment, the instructions, and the current recall picture.",
 }));
+
+export const resourceArticles: ResourceArticle[] = [
+  ...generatedResourceArticles,
+  ...approvedResourceArticles,
+];
 
 export function getArticleBySlug(slug: string) {
   return resourceArticles.find((article) => article.slug === slug);
