@@ -2,6 +2,7 @@ export type ResourceArticle = {
   title: string;
   slug: string;
   publishDate: string;
+  publishAt?: string;
   category: string;
   image: string;
   excerpt: string;
@@ -314,8 +315,12 @@ export function getArticleBySlug(slug: string) {
   return resourceArticles.find((article) => article.slug === slug);
 }
 
+export function getArticlePublishTime(article: ResourceArticle) {
+  return article.publishAt ?? `${article.publishDate}T00:00:00-04:00`;
+}
+
 export function isArticlePublished(article: ResourceArticle, now = new Date()) {
-  return new Date(`${article.publishDate}T00:00:00-04:00`).getTime() <= now.getTime();
+  return new Date(getArticlePublishTime(article)).getTime() <= now.getTime();
 }
 
 export function getPublishedArticles(now = new Date()) {
@@ -331,5 +336,7 @@ export function formatArticleDate(date: string) {
 }
 
 export function getNextScheduledArticle(now = new Date()) {
-  return getScheduledArticles(now).sort((a, b) => a.publishDate.localeCompare(b.publishDate))[0];
+  return getScheduledArticles(now).sort(
+    (a, b) => new Date(getArticlePublishTime(a)).getTime() - new Date(getArticlePublishTime(b)).getTime(),
+  )[0];
 }
