@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
       description: page.description,
       url: absoluteUrl(`/compare/${page.slug}`),
       images: [{ url: absoluteUrl(page.image), alt: `${page.title} comparison image` }],
-      type: "article",
+      type: "website",
     },
     twitter: {
       card: "summary_large_image",

@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: HubPageProps): Promise<Metada
           alt: `${hub.title} guide image`,
         },
       ],
-      type: "article",
+      type: "website",
     },
     twitter: {
       card: "summary_large_image",
@@ -72,7 +72,7 @@ export default async function HubPage({ params }: HubPageProps) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebPage",
+        "@type": "CollectionPage",
         "@id": `${hubUrl}#webpage`,
         url: hubUrl,
         name: hub.title,
@@ -82,6 +82,17 @@ export default async function HubPage({ params }: HubPageProps) {
         },
         about: hub.keywords,
         inLanguage: "en-US",
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${hubUrl}#related-articles`,
+        name: `${hub.title} related Safer Kids resources`,
+        itemListElement: relatedArticles.map((article, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: absoluteUrl(`/resources/${article.slug}`),
+          name: article.title,
+        })),
       },
       {
         "@type": "FAQPage",

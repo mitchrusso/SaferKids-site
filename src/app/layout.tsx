@@ -46,6 +46,12 @@ const websiteJsonLd = {
       name: siteName,
       url: siteUrl,
       description: defaultDescription,
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "customer support",
+        url: absoluteUrl("/contact"),
+        availableLanguage: "en-US",
+      },
       sameAs: [],
     },
     {

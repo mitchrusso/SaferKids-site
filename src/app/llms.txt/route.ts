@@ -3,7 +3,7 @@ const siteUrl = "https://saferkids.com";
 export function GET() {
   const body = `# Safer Kids
 
-Safer Kids is an affiliate shopping and research guide for parents comparing childproofing products, safer toys, stroller features, car seat resources, nursery safety, bath safety, and family emergency gear.
+Safer Kids is an affiliate shopping and research guide for parents comparing child safety products, childproofing products, safer toys, stroller features, car seat resources, nursery safety, bath safety, and family emergency gear.
 
 ## Primary Pages
 - Home and top picks: ${siteUrl}/

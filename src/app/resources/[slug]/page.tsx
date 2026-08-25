@@ -173,6 +173,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         },
         mainEntityOfPage: articleUrl,
         keywords: article.keywords.join(", "),
+        articleSection: article.category,
+        citation: sources.map((source) => source.url),
         inLanguage: "en-US",
       },
       {
