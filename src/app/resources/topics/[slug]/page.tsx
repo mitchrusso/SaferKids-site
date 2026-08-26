@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
 import { getTopicHubBySlug, topicHubs } from "@/lib/hubs";
 import { getArticleBySlug, isArticlePublished, type ResourceArticle } from "@/lib/resources";
+import { getReviewProductBySlug, type ReviewProduct } from "@/lib/reviews";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
@@ -67,6 +68,9 @@ export default async function HubPage({ params }: HubPageProps) {
   const relatedArticles = hub.relatedArticleSlugs
     .map((articleSlug) => getArticleBySlug(articleSlug))
     .filter((article): article is ResourceArticle => Boolean(article && isArticlePublished(article)));
+  const featuredProducts = (hub.featuredProductSlugs ?? [])
+    .map((productSlug) => getReviewProductBySlug(productSlug))
+    .filter((product): product is ReviewProduct => Boolean(product));
   const hubUrl = absoluteUrl(`/resources/topics/${hub.slug}`);
   const hubJsonLd = {
     "@context": "https://schema.org",
@@ -183,6 +187,63 @@ export default async function HubPage({ params }: HubPageProps) {
               </div>
             </section>
           ))}
+
+          {featuredProducts.length > 0 ? (
+            <section className="mt-8 rounded-lg bg-[#eef6ed] p-5">
+              <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+                <div>
+                  <p className="text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">Featured Safety Picks</p>
+                  <h2 className="mt-2 text-2xl font-black leading-tight">Start with products that match this safety problem.</h2>
+                </div>
+                <Link href="/#reviews" className="inline-flex min-h-10 items-center gap-2 rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black text-[#10231f] hover:border-[#0e7a5f]">
+                  All safety picks
+                  <ArrowRight className="h-4 w-4" aria-hidden />
+                </Link>
+              </div>
+              <p className="mt-3 text-sm leading-7 text-[#5d6d66]">
+                We may earn a commission through Amazon links. Always verify current recalls, fit, installation instructions, age limits, and manufacturer guidance before use.
+              </p>
+              <div className="mt-5 grid gap-4 md:grid-cols-3">
+                {featuredProducts.map((product) => (
+                  <article key={product.slug} className="rounded-lg border border-[#dce5dc] bg-white p-4 shadow-sm">
+                    <div className="flex aspect-[4/3] items-center justify-center rounded-md bg-[#fbfcf8]">
+                      <Image
+                        src={product.image}
+                        alt={`${product.name} category image`}
+                        width={360}
+                        height={270}
+                        className="h-full w-full rounded-md object-cover"
+                      />
+                    </div>
+                    <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">{product.bestFor}</p>
+                    <h3 className="mt-2 text-lg font-black leading-tight">{product.name}</h3>
+                    <p className="mt-3 text-sm leading-7 text-[#5d6d66]">{product.summary}</p>
+                    <div className="mt-4 grid gap-2 text-sm font-bold text-[#40514b]">
+                      {product.pros.slice(0, 2).map((pro) => (
+                        <p key={pro} className="flex gap-2">
+                          <CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-[#0e7a5f]" aria-hidden />
+                          <span>{pro}</span>
+                        </p>
+                      ))}
+                    </div>
+                    <div className="mt-5 grid gap-2 sm:grid-cols-2">
+                      <Link href={`/reviews/${product.slug}`} className="inline-flex min-h-11 items-center justify-center rounded-md border border-[#cbd8cf] px-4 py-2 text-sm font-black hover:border-[#0e7a5f]">
+                        Checklist
+                      </Link>
+                      <a
+                        href={product.amazon}
+                        target="_blank"
+                        rel="sponsored nofollow noreferrer"
+                        className="inline-flex min-h-11 items-center justify-center rounded-md bg-[#10231f] px-4 py-2 text-sm font-black text-white hover:bg-[#0e7a5f]"
+                      >
+                        Amazon
+                      </a>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          ) : null}
 
           <section className="mt-8 rounded-lg bg-[#eef6ed] p-5">
             <h2 className="text-2xl font-black">Frequently Asked Questions</h2>

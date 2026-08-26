@@ -5,6 +5,10 @@ const importantRoutes = [
   "/",
   "/resources",
   "/resources/topics/baby-proofing-checklist",
+  "/resources/topics/baby-gates-for-stairs",
+  "/resources/topics/convertible-car-seat-safety-features",
+  "/resources/topics/non-toxic-toys-for-toddlers",
+  "/resources/topics/stroller-safety-features",
   "/resources/safer-baby-products-to-buy-first",
   "/reviews/hardware-mounted-baby-gate",
   "/compare/hardware-mounted-vs-pressure-mounted-baby-gates",
@@ -85,6 +89,8 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
     for (const route of importantRoutes.slice(0, 6)) {
       expect(sitemap).toContain(`${productionOrigin}${route === "/" ? "" : route}`);
     }
+    expect(sitemap).toContain(`${productionOrigin}/resources/topics/baby-gates-for-stairs`);
+    expect(sitemap).toContain(`${productionOrigin}/resources/topics/non-toxic-toys-for-toddlers`);
 
     expect(sitemap).not.toContain("/api/contact");
     expect(sitemap).not.toContain("/api/script.js");
@@ -114,6 +120,23 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
       expect(rel).toContain("sponsored");
       expect(rel).toContain("nofollow");
       expect(rel).toContain("noreferrer");
+    }
+  });
+
+  test("high-intent safety hubs expose relevant product paths", async ({ page }) => {
+    await page.goto("/resources/topics/baby-gates-for-stairs", { waitUntil: "domcontentloaded" });
+
+    await expect(page.getByRole("heading", { name: "Start with products that match this safety problem." })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Checklist" }).first()).toHaveAttribute("href", /\/reviews\//);
+
+    const amazonLinks = page.locator('a[href*="amazon.com"]');
+    expect(await amazonLinks.count()).toBeGreaterThan(0);
+
+    for (const link of await amazonLinks.all()) {
+      await expect(link).toHaveAttribute("href", /tag=mitchellrusso-20/);
+      await expect(link).toHaveAttribute("target", "_blank");
+      await expect(link).toHaveAttribute("rel", /sponsored/);
+      await expect(link).toHaveAttribute("rel", /nofollow/);
     }
   });
 
