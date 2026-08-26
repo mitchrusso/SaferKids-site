@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import { ArrowRight, Baby, BadgeCheck, Bath, Car, Check, Home as HomeIcon, Menu, ShieldCheck, ShoppingBag, Sparkles, ToyBrick, X } from "lucide-react";
+import { useMemo } from "react";
+import { ArrowRight, Baby, BadgeCheck, Bath, Car, Check, Home as HomeIcon, Menu, ShieldCheck, ShoppingBag, Sparkles, ToyBrick } from "lucide-react";
 import { comparisonPages } from "@/lib/comparisons";
 import { reviewProducts } from "@/lib/reviews";
 import { siteFaqs } from "@/lib/trust";
@@ -39,7 +39,6 @@ const safetyRules = [
 ];
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const topProducts = reviewProducts.slice(0, 6);
   const pageJsonLd = useMemo(() => ({
     "@context": "https://schema.org",
@@ -65,17 +64,17 @@ export default function Home() {
           <a href="#reviews" className="hidden min-h-11 items-center gap-2 rounded-md bg-[#172427] px-4 py-2 text-sm font-black text-white hover:bg-[#2d3e42] sm:inline-flex">
             <ShoppingBag className="h-4 w-4" aria-hidden /> Shop Safety Picks
           </a>
-          <button type="button" onClick={() => setMenuOpen((open) => !open)} className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-[#c8d9d3] bg-white text-[#172427] lg:hidden" aria-label="Open menu" aria-expanded={menuOpen}>
-            {menuOpen ? <X className="h-5 w-5" aria-hidden /> : <Menu className="h-5 w-5" aria-hidden />}
-          </button>
+          <details className="group relative lg:hidden">
+            <summary className="inline-flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-md border border-[#c8d9d3] bg-white text-[#172427] marker:hidden" aria-label="Open menu" aria-controls="mobile-navigation">
+              <Menu className="h-5 w-5" aria-hidden />
+            </summary>
+            <div id="mobile-navigation" className="fixed left-0 right-0 top-[65px] border-t border-[#d7e4df] bg-[#f5f8f7] px-5 py-4 shadow-lg lg:hidden">
+              <nav className="grid gap-2 text-base font-black" aria-label="Mobile navigation">
+                {navItems.map((item) => <a key={item.href} href={item.href} className="rounded-md border border-[#d7e4df] bg-white px-4 py-3">{item.label}</a>)}
+              </nav>
+            </div>
+          </details>
         </div>
-        {menuOpen && (
-          <div className="border-t border-[#d7e4df] bg-[#f5f8f7] px-5 py-4 lg:hidden">
-            <nav className="grid gap-2 text-base font-black" aria-label="Mobile navigation">
-              {navItems.map((item) => <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)} className="rounded-md border border-[#d7e4df] bg-white px-4 py-3">{item.label}</a>)}
-            </nav>
-          </div>
-        )}
       </header>
 
       <section id="top" className="bg-[#eef7f2]">

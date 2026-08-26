@@ -121,8 +121,9 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
     test.skip(!isMobile, "mobile-only navigation check");
 
     await page.goto("/", { waitUntil: "domcontentloaded" });
-    await page.getByRole("button", { name: /open menu/i }).click();
-    await expect(page.getByRole("navigation", { name: /mobile navigation/i }).getByText("Resources")).toBeVisible();
-    await expect(page.getByRole("navigation", { name: /mobile navigation/i }).getByText("Contact")).toBeVisible();
+    await page.getByLabel(/open menu/i).click();
+    await expect(page.locator("details[open]")).toHaveCount(1);
+    await expect(page.locator('#mobile-navigation a[href="/resources"]')).toBeVisible();
+    await expect(page.locator('#mobile-navigation a[href="/contact"]')).toBeVisible();
   });
 });
