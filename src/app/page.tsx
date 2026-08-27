@@ -6,6 +6,7 @@ import { useMemo } from "react";
 import { ArrowRight, Baby, BadgeCheck, Bath, Car, Check, Home as HomeIcon, Menu, ShieldCheck, ShoppingBag, Sparkles, ToyBrick } from "lucide-react";
 import { comparisonPages } from "@/lib/comparisons";
 import { reviewProducts } from "@/lib/reviews";
+import { getArticlePublishTime, getPublishedArticles } from "@/lib/resources";
 import { siteFaqs } from "@/lib/trust";
 import { absoluteUrl, jsonLd, siteName } from "@/lib/seo";
 
@@ -39,7 +40,14 @@ const safetyRules = [
 ];
 
 export default function Home() {
-  const topProducts = reviewProducts.slice(0, 6);
+  const topProducts = useMemo(() => reviewProducts.slice(0, 6), []);
+  const latestArticles = useMemo(
+    () =>
+      getPublishedArticles()
+        .sort((a, b) => new Date(getArticlePublishTime(b)).getTime() - new Date(getArticlePublishTime(a)).getTime())
+        .slice(0, 3),
+    []
+  );
   const pageJsonLd = useMemo(() => ({
     "@context": "https://schema.org",
     "@graph": [
@@ -199,6 +207,28 @@ export default function Home() {
         <Link href="/faq" className="mt-6 inline-flex min-h-11 items-center rounded-md border border-[#c8d9d3] bg-white px-4 py-2 text-sm font-black text-[#172427] hover:border-[#2d8f7b]">
           View full FAQ
         </Link>
+      </section>
+
+      <section className="border-t border-[#d7e4df] bg-white py-14">
+        <div className="mx-auto max-w-7xl px-5">
+          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <p className="text-sm font-black uppercase tracking-[0.18em] text-[#1f7b68]">Latest Resources</p>
+              <h2 className="mt-3 text-3xl font-black leading-tight sm:text-4xl">New parent safety guides and product checklists.</h2>
+            </div>
+            <Link href="/resources" className="text-sm font-black text-[#2d8f7b] hover:text-[#1f7b68]">All resources</Link>
+          </div>
+          <div className="mt-8 grid gap-5 md:grid-cols-3">
+            {latestArticles.map((article) => (
+              <Link key={article.slug} href={`/resources/${article.slug}`} className="group rounded-lg border border-[#d7e4df] bg-[#f5f8f7] p-5 shadow-sm hover:border-[#2d8f7b]">
+                <p className="text-xs font-black uppercase tracking-[0.14em] text-[#1f7b68]">{article.category}</p>
+                <h3 className="mt-3 text-xl font-black leading-tight group-hover:text-[#1f7b68]">{article.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-[#53666a]">{article.excerpt}</p>
+                <span className="mt-4 inline-flex items-center gap-2 text-sm font-black text-[#2d8f7b]">Read guide <ArrowRight className="h-4 w-4" aria-hidden /></span>
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
 
       <footer className="border-t border-[#d7e4df] bg-[#f5f8f7]">
