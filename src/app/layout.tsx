@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "family safety gear",
   ],
   category: "Parenting",
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", types: { "application/rss+xml": absoluteUrl("/feed.xml") } },
   openGraph: {
     title: "Safer Kids | Safety-First Parent Shopping Guide",
     description: defaultDescription,
