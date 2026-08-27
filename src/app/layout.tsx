@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "family safety gear",
   ],
   category: "Parenting",
-  alternates: { canonical: "/", types: { "application/rss+xml": absoluteUrl("/feed.xml") } },
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Safer Kids | Safety-First Parent Shopping Guide",
     description: defaultDescription,
@@ -67,5 +67,5 @@ const websiteJsonLd = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning><head><script src="/api/script.js" data-site-id="c54121fe864a" defer /></head><body className="min-h-full flex flex-col" suppressHydrationWarning><script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />{children}</body></html>;
+  return <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning><head><link rel="alternate" type="application/rss+xml" title={`${siteName} RSS Feed`} href={absoluteUrl("/feed.xml")} /><script src="/api/script.js" data-site-id="c54121fe864a" defer /></head><body className="min-h-full flex flex-col" suppressHydrationWarning><script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />{children}</body></html>;
 }
