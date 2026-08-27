@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
+import { comparisonPages, type ComparisonPage } from "@/lib/comparisons";
 import { getTopicHubBySlug, topicHubs } from "@/lib/hubs";
 import { getArticleBySlug, isArticlePublished, type ResourceArticle } from "@/lib/resources";
 import { getReviewProductBySlug, type ReviewProduct } from "@/lib/reviews";
@@ -15,6 +16,27 @@ type HubPageProps = {
     slug: string;
   }>;
 };
+
+const comparisonByHubSlug: Record<string, string[]> = {
+  "baby-proofing-checklist": ["hardware-mounted-vs-pressure-mounted-baby-gates", "wooden-toys-vs-plastic-toys"],
+  "car-seat-safety": ["infant-car-seat-vs-convertible-car-seat", "video-baby-monitor-vs-audio-baby-monitor"],
+  "safe-sleep-products": ["video-baby-monitor-vs-audio-baby-monitor", "wooden-toys-vs-plastic-toys"],
+  "safer-toys-by-age": ["wooden-toys-vs-plastic-toys", "video-baby-monitor-vs-audio-baby-monitor"],
+  "stroller-safety": ["infant-car-seat-vs-convertible-car-seat", "hardware-mounted-vs-pressure-mounted-baby-gates"],
+  "bath-and-water-safety": ["video-baby-monitor-vs-audio-baby-monitor", "hardware-mounted-vs-pressure-mounted-baby-gates"],
+  "baby-gates-for-stairs": ["hardware-mounted-vs-pressure-mounted-baby-gates"],
+  "convertible-car-seat-safety-features": ["infant-car-seat-vs-convertible-car-seat"],
+  "non-toxic-toys-for-toddlers": ["wooden-toys-vs-plastic-toys"],
+  "stroller-safety-features": ["infant-car-seat-vs-convertible-car-seat", "video-baby-monitor-vs-audio-baby-monitor"],
+};
+
+function getHubComparisons(slug: string): ComparisonPage[] {
+  const slugs = comparisonByHubSlug[slug] ?? [];
+
+  return slugs
+    .map((comparisonSlug) => comparisonPages.find((comparison) => comparison.slug === comparisonSlug))
+    .filter((comparison): comparison is ComparisonPage => Boolean(comparison));
+}
 
 export function generateStaticParams() {
   return topicHubs.map((hub) => ({ slug: hub.slug }));
@@ -71,6 +93,7 @@ export default async function HubPage({ params }: HubPageProps) {
   const featuredProducts = (hub.featuredProductSlugs ?? [])
     .map((productSlug) => getReviewProductBySlug(productSlug))
     .filter((product): product is ReviewProduct => Boolean(product));
+  const relatedComparisons = getHubComparisons(hub.slug);
   const hubUrl = absoluteUrl(`/resources/topics/${hub.slug}`);
   const hubJsonLd = {
     "@context": "https://schema.org",
@@ -98,6 +121,36 @@ export default async function HubPage({ params }: HubPageProps) {
           name: article.title,
         })),
       },
+      ...(featuredProducts.length > 0
+        ? [
+            {
+              "@type": "ItemList",
+              "@id": `${hubUrl}#featured-products`,
+              name: `${hub.title} featured safety picks`,
+              itemListElement: featuredProducts.map((product, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                url: absoluteUrl(`/reviews/${product.slug}`),
+                name: product.name,
+              })),
+            },
+          ]
+        : []),
+      ...(relatedComparisons.length > 0
+        ? [
+            {
+              "@type": "ItemList",
+              "@id": `${hubUrl}#comparison-guides`,
+              name: `${hub.title} comparison guides`,
+              itemListElement: relatedComparisons.map((comparison, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                url: absoluteUrl(`/compare/${comparison.slug}`),
+                name: comparison.title,
+              })),
+            },
+          ]
+        : []),
       {
         "@type": "FAQPage",
         mainEntity: hub.faqs.map((faq) => ({
@@ -175,6 +228,29 @@ export default async function HubPage({ params }: HubPageProps) {
 
       <div className="mx-auto grid max-w-5xl gap-8 px-5 py-10 lg:grid-cols-[1fr_280px] lg:items-start">
         <article className="rounded-lg border border-[#dce5dc] bg-white p-6 shadow-sm sm:p-8">
+          <section className="grid gap-4 border-b border-[#e6ece5] pb-7 md:grid-cols-3">
+            {[
+              {
+                title: "Recall aware",
+                body: "Check CPSC recalls, product age grading, and manufacturer instructions before trusting a safety claim.",
+              },
+              {
+                title: "Room specific",
+                body: "Match products to the exact hazard: stairs, sleep, water, furniture tip-over, choking, travel, or car-seat fit.",
+              },
+              {
+                title: "Installed correctly",
+                body: "The safer product is the one that fits the space, is installed as directed, and is rechecked as children grow.",
+              },
+            ].map((card) => (
+              <div key={card.title} className="rounded-lg bg-[#eef6ed] p-4">
+                <ShieldCheck className="h-5 w-5 text-[#0e7a5f]" aria-hidden />
+                <h2 className="mt-3 text-base font-black">{card.title}</h2>
+                <p className="mt-2 text-sm leading-7 text-[#5d6d66]">{card.body}</p>
+              </div>
+            ))}
+          </section>
+
           {hub.sections.map((section) => (
             <section key={section.heading} className="border-b border-[#e6ece5] py-7 first:pt-0 last:border-b-0 last:pb-0">
               <h2 className="text-2xl font-black leading-tight">{section.heading}</h2>
@@ -187,6 +263,33 @@ export default async function HubPage({ params }: HubPageProps) {
               </div>
             </section>
           ))}
+
+          {relatedComparisons.length > 0 ? (
+            <section className="mt-8 rounded-lg border border-[#dce5dc] bg-[#fbfcf8] p-5">
+              <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+                <div>
+                  <p className="text-xs font-black uppercase tracking-[0.14em] text-[#0e7a5f]">Compare Before You Buy</p>
+                  <h2 className="mt-2 text-2xl font-black leading-tight">Use these comparisons to choose the safer fit.</h2>
+                </div>
+                <Link href="/#compare" className="inline-flex min-h-10 items-center gap-2 rounded-md border border-[#cbd8cf] bg-white px-4 py-2 text-sm font-black text-[#10231f] hover:border-[#0e7a5f]">
+                  All comparisons
+                  <ArrowRight className="h-4 w-4" aria-hidden />
+                </Link>
+              </div>
+              <div className="mt-5 grid gap-3 md:grid-cols-2">
+                {relatedComparisons.map((comparison) => (
+                  <Link
+                    key={comparison.slug}
+                    href={`/compare/${comparison.slug}`}
+                    className="group rounded-lg border border-[#dce5dc] bg-white p-4 shadow-sm hover:border-[#0e7a5f]"
+                  >
+                    <p className="text-sm font-black leading-6 group-hover:text-[#0e7a5f]">{comparison.title}</p>
+                    <p className="mt-2 text-xs leading-6 text-[#5d6d66]">{comparison.description}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          ) : null}
 
           {featuredProducts.length > 0 ? (
             <section className="mt-8 rounded-lg bg-[#eef6ed] p-5">

@@ -126,6 +126,8 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
   test("high-intent safety hubs expose relevant product paths", async ({ page }) => {
     await page.goto("/resources/topics/baby-gates-for-stairs", { waitUntil: "domcontentloaded" });
 
+    await expect(page.getByRole("heading", { name: "Use these comparisons to choose the safer fit." })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Hardware-Mounted vs Pressure-Mounted Baby Gates/ })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Start with products that match this safety problem." })).toBeVisible();
     await expect(page.getByRole("link", { name: "Checklist" }).first()).toHaveAttribute("href", /\/reviews\//);
 
@@ -138,6 +140,17 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
       await expect(link).toHaveAttribute("rel", /sponsored/);
       await expect(link).toHaveAttribute("rel", /nofollow/);
     }
+  });
+
+  test("topic hubs expose featured products and comparison structured data", async ({ page }) => {
+    await page.goto("/resources/topics/baby-gates-for-stairs", { waitUntil: "domcontentloaded" });
+    const jsonLdBlocks = await page.locator('script[type="application/ld+json"]').allTextContents();
+    const combined = jsonLdBlocks.join("\n");
+
+    expect(combined).toContain('"@type":"CollectionPage"');
+    expect(combined).toContain('"@id":"https://saferkids.com/resources/topics/baby-gates-for-stairs#featured-products"');
+    expect(combined).toContain('"@id":"https://saferkids.com/resources/topics/baby-gates-for-stairs#comparison-guides"');
+    expect(combined).toContain('"name":"Hardware-Mounted vs Pressure-Mounted Baby Gates"');
   });
 
   test("mobile navigation exposes core routes", async ({ page, isMobile }) => {
