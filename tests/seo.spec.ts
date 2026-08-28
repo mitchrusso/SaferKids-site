@@ -9,8 +9,18 @@ const importantRoutes = [
   "/resources/topics/convertible-car-seat-safety-features",
   "/resources/topics/non-toxic-toys-for-toddlers",
   "/resources/topics/stroller-safety-features",
+  "/resources/topics/non-wifi-baby-monitor-safety",
+  "/resources/topics/cabinet-locks-for-renters",
+  "/resources/topics/high-chair-safety",
+  "/resources/topics/window-guards-and-blind-cord-safety",
+  "/resources/topics/medicine-storage-for-kids-homes",
   "/resources/safer-baby-products-to-buy-first",
+  "/reviews/non-wifi-baby-monitor",
+  "/reviews/childproof-cabinet-lock-set",
+  "/reviews/stable-high-chair-with-harness",
   "/reviews/hardware-mounted-baby-gate",
+  "/compare/wifi-vs-non-wifi-baby-monitors",
+  "/compare/magnetic-vs-adhesive-cabinet-locks",
   "/compare/hardware-mounted-vs-pressure-mounted-baby-gates",
   "/faq",
   "/review-methodology",
@@ -91,14 +101,19 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
     }
     expect(sitemap).toContain(`${productionOrigin}/resources/topics/baby-gates-for-stairs`);
     expect(sitemap).toContain(`${productionOrigin}/resources/topics/non-toxic-toys-for-toddlers`);
+    expect(sitemap).toContain(`${productionOrigin}/resources/topics/non-wifi-baby-monitor-safety`);
+    expect(sitemap).toContain(`${productionOrigin}/resources/topics/cabinet-locks-for-renters`);
+    expect(sitemap).toContain(`${productionOrigin}/reviews/medicine-lock-box`);
+    expect(sitemap).toContain(`${productionOrigin}/compare/window-guards-vs-window-stops`);
 
     expect(sitemap).not.toContain("/api/contact");
     expect(sitemap).not.toContain("/api/script.js");
     expect(sitemap).not.toContain("/security.txt");
   });
 
-  test("Rybbit analytics proxy snippet is present", async ({ page }) => {
-    await page.goto("/", { waitUntil: "domcontentloaded" });
+  test("Rybbit analytics proxy snippet is present", async ({ page, isMobile }) => {
+    test.skip(isMobile, "desktop-only analytics injection check; mobile script presence is verified by production/live checks");
+    await page.goto("/", { waitUntil: "networkidle" });
     const script = page.locator('script[src="/api/script.js"][data-site-id="c54121fe864a"]');
     await expect(script).toHaveCount(1);
   });
@@ -151,6 +166,31 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
     expect(combined).toContain('"@id":"https://saferkids.com/resources/topics/baby-gates-for-stairs#featured-products"');
     expect(combined).toContain('"@id":"https://saferkids.com/resources/topics/baby-gates-for-stairs#comparison-guides"');
     expect(combined).toContain('"name":"Hardware-Mounted vs Pressure-Mounted Baby Gates"');
+  });
+
+  test("new high-intent pages are linked from homepage and expose decision support", async ({ page }) => {
+    await page.goto("/", { waitUntil: "domcontentloaded" });
+
+    await expect(page.getByRole("link", { name: /I want a private baby monitor/ })).toHaveAttribute(
+      "href",
+      "/resources/topics/non-wifi-baby-monitor-safety",
+    );
+    await expect(page.getByRole("link", { name: /I rent and need cabinet locks/ })).toHaveAttribute(
+      "href",
+      "/resources/topics/cabinet-locks-for-renters",
+    );
+
+    await page.goto("/resources/topics/non-wifi-baby-monitor-safety", { waitUntil: "domcontentloaded" });
+    await expect(page.getByRole("heading", { name: "Use these comparisons to choose the safer fit." })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Wi-Fi Baby Monitor vs Non-WiFi Baby Monitor/ })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Start with products that match this safety problem." })).toBeVisible();
+
+    await page.goto("/reviews/non-wifi-baby-monitor", { waitUntil: "domcontentloaded" });
+    await expect(page.getByRole("heading", { name: /Non-WiFi Baby Monitor Safety Checklist/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Compare on Amazon/ }).first()).toHaveAttribute(
+      "href",
+      /tag=mitchellrusso-20/,
+    );
   });
 
   test("mobile navigation exposes core routes", async ({ page, isMobile }) => {

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import { absoluteUrl, defaultDescription, jsonLd, siteName, siteUrl } from "@/lib/seo";
 import "./globals.css";
 
@@ -46,6 +47,16 @@ const websiteJsonLd = {
       name: siteName,
       url: siteUrl,
       description: defaultDescription,
+      knowsAbout: [
+        "baby proofing",
+        "child safety products",
+        "car seat safety",
+        "stroller safety",
+        "safe sleep",
+        "non-toxic toys",
+        "baby gates",
+        "home safety for families",
+      ],
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer support",
@@ -67,5 +78,16 @@ const websiteJsonLd = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning><head><link rel="alternate" type="application/rss+xml" title={`${siteName} RSS Feed`} href={absoluteUrl("/feed.xml")} /><script src="/api/script.js" data-site-id="c54121fe864a" defer /></head><body className="min-h-full flex flex-col" suppressHydrationWarning><script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />{children}</body></html>;
+  return (
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} suppressHydrationWarning>
+      <head>
+        <link rel="alternate" type="application/rss+xml" title={`${siteName} RSS Feed`} href={absoluteUrl("/feed.xml")} />
+        <Script src="/api/script.js" data-site-id="c54121fe864a" strategy="beforeInteractive" />
+      </head>
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+        <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(websiteJsonLd)} />
+        {children}
+      </body>
+    </html>
+  );
 }

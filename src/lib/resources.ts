@@ -21,6 +21,8 @@ export const keywordPlan = [
   { cluster: "Safer toys", keywords: ["safe toys by age", "non toxic toys", "choking hazard toys", "wooden toys safety"] },
   { cluster: "Bath and daily care", keywords: ["baby bath safety", "non slip bath mat", "bath spout cover", "toddler safety products"] },
   { cluster: "Outdoor and emergency", keywords: ["kids bike helmet", "outdoor play safety", "family first aid kit", "child emergency kit"] },
+  { cluster: "Monitoring and privacy", keywords: ["non wifi baby monitor", "baby monitor privacy", "secure baby monitor", "wifi baby monitor safety"] },
+  { cluster: "Feeding and medicine storage", keywords: ["high chair safety", "medicine lock box child safety", "child safe medication storage", "poison prevention kids"] },
 ];
 
 const images = {

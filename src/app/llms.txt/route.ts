@@ -19,6 +19,7 @@ Safer Kids is an affiliate shopping and research guide for parents comparing chi
 - Safety-first product category guides for parents and caregivers
 - Baby gates, furniture anchors, outlet covers, cabinet locks, and home childproofing
 - Car seat, stroller, safe sleep, bath safety, toy safety, and emergency readiness resources
+- High-intent buyer pages for non-WiFi baby monitors, renter-friendly cabinet locks, high chair safety, window guards, blind-cord safety, and medicine lock boxes
 - Official recall and safety-check links from CPSC, NHTSA, AAP, and HealthyChildren
 
 ## Important Notes

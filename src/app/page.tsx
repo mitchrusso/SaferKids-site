@@ -30,6 +30,10 @@ const quickMatchCards = [
   { title: "I need a car seat plan", answer: "Compare fit, rear-facing limits, and installation.", href: "/resources/topics/car-seat-safety", icon: Car },
   { title: "I am setting up a nursery", answer: "Focus on firm, flat sleep and fewer add-ons.", href: "/resources/topics/safe-sleep-products", icon: Baby },
   { title: "I want safer toys", answer: "Check age grading, small parts, magnets, and batteries.", href: "/resources/topics/safer-toys-by-age", icon: ToyBrick },
+  { title: "I want a private baby monitor", answer: "Compare Wi-Fi and non-WiFi monitoring choices.", href: "/resources/topics/non-wifi-baby-monitor-safety", icon: ShieldCheck },
+  { title: "I rent and need cabinet locks", answer: "Compare no-drill locks and daily failure points.", href: "/resources/topics/cabinet-locks-for-renters", icon: HomeIcon },
+  { title: "I need safer feeding gear", answer: "Check high chair stability, harnesses, and booster fit.", href: "/resources/topics/high-chair-safety", icon: Baby },
+  { title: "I need window safety help", answer: "Compare guards, stops, cordless blinds, and room layout.", href: "/resources/topics/window-guards-and-blind-cord-safety", icon: HomeIcon },
 ];
 
 const safetyRules = [

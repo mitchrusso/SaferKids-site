@@ -28,6 +28,11 @@ const comparisonByHubSlug: Record<string, string[]> = {
   "convertible-car-seat-safety-features": ["infant-car-seat-vs-convertible-car-seat"],
   "non-toxic-toys-for-toddlers": ["wooden-toys-vs-plastic-toys"],
   "stroller-safety-features": ["infant-car-seat-vs-convertible-car-seat", "video-baby-monitor-vs-audio-baby-monitor"],
+  "non-wifi-baby-monitor-safety": ["wifi-vs-non-wifi-baby-monitors", "video-baby-monitor-vs-audio-baby-monitor"],
+  "cabinet-locks-for-renters": ["magnetic-vs-adhesive-cabinet-locks", "hardware-mounted-vs-pressure-mounted-baby-gates"],
+  "high-chair-safety": ["high-chair-vs-booster-seat"],
+  "window-guards-and-blind-cord-safety": ["window-guards-vs-window-stops"],
+  "medicine-storage-for-kids-homes": ["magnetic-vs-adhesive-cabinet-locks"],
 };
 
 function getHubComparisons(slug: string): ComparisonPage[] {

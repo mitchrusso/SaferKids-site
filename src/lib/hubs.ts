@@ -276,6 +276,201 @@ export const topicHubs: TopicHub[] = [
       },
     ],
   },
+  {
+    title: "Non-WiFi Baby Monitor Safety",
+    slug: "non-wifi-baby-monitor-safety",
+    eyebrow: "Privacy-First Monitoring",
+    description:
+      "Compare non-WiFi baby monitors, Wi-Fi monitor tradeoffs, camera placement, cord routing, privacy settings, range, and battery alerts.",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=80",
+    keywords: ["non wifi baby monitor", "baby monitor privacy", "secure baby monitor"],
+    featuredProductSlugs: ["non-wifi-baby-monitor", "safe-crib-mattress-setup", "family-first-aid-emergency-kit"],
+    relatedArticleSlugs: ["baby-monitor-safety", "safe-sleep-products-crib", "nursery-safety-checklist"],
+    sections: [
+      {
+        heading: "Privacy starts with the monitor type",
+        body: [
+          "Parents who do not need phone access away from home may prefer a non-WiFi monitor because it removes app accounts, router passwords, cloud access, and software-update habits from the daily safety routine.",
+          "Wi-Fi monitors can still be useful, but they ask parents to manage privacy and security settings with the same care they give camera placement and cord routing.",
+        ],
+      },
+      {
+        heading: "Placement matters more than features",
+        body: [
+          "A monitor should be positioned so cords are well away from the crib, the camera cannot fall into the sleep space, and alerts are audible where caregivers actually spend time.",
+          "Treat every monitor as an aid for awareness, not a substitute for safe sleep setup or adult supervision.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is a non-WiFi baby monitor safer than a Wi-Fi monitor?",
+        answer:
+          "It can be simpler from a privacy standpoint, but safe placement, cord routing, range, battery alerts, and realistic expectations still matter.",
+      },
+      {
+        question: "Where should baby monitor cords go?",
+        answer:
+          "Cords should be routed well away from the crib or sleep space, following the manufacturer's setup instructions.",
+      },
+    ],
+  },
+  {
+    title: "Cabinet Locks for Renters",
+    slug: "cabinet-locks-for-renters",
+    eyebrow: "No-Drill Childproofing",
+    description:
+      "Compare renter-friendly cabinet locks by adhesive strength, magnetic access, adult usability, surface material, cleaning prep, and failure points.",
+    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80",
+    keywords: ["cabinet locks for renters", "childproof cabinet locks", "baby proof cabinets no drill"],
+    featuredProductSlugs: ["childproof-cabinet-lock-set", "outlet-covers-cord-shorteners", "anti-tip-furniture-anchors"],
+    relatedArticleSlugs: ["cabinet-locks-outlet-covers-corner-guards", "baby-proofing-checklist-products", "outlet-covers-and-cord-safety"],
+    sections: [
+      {
+        heading: "Renter-friendly still has to hold",
+        body: [
+          "No-drill locks can be useful in apartments and rentals, but adhesive products depend on clean surfaces, correct placement, cabinet material, and repeated adult use.",
+          "A lock that adults find annoying often gets bypassed, so usability is part of the safety decision.",
+        ],
+      },
+      {
+        heading: "Lock dangerous items higher, too",
+        body: [
+          "Cabinet locks work best as one layer. Cleaning products, medicines, sharp tools, batteries, and small choking hazards should also be moved high and out of sight when practical.",
+          "After installation, tug, twist, and open the door repeatedly to make sure the lock still works under normal daily use.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Are adhesive cabinet locks good for renters?",
+        answer:
+          "They can be, if the surface is compatible and prepared correctly. Parents should test them often and avoid relying on them as the only safety layer.",
+      },
+      {
+        question: "Are magnetic cabinet locks better?",
+        answer:
+          "Magnetic locks are often hidden and tidy, but they require alignment and a magnetic key that adults must keep accessible but away from children.",
+      },
+    ],
+  },
+  {
+    title: "High Chair Safety",
+    slug: "high-chair-safety",
+    eyebrow: "Daily Feeding",
+    description:
+      "Compare high chair safety features including stability, harness design, tray locks, foot support, cleaning, booster transitions, and recall checks.",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=1200&q=80",
+    keywords: ["high chair safety", "safe high chair", "baby feeding safety"],
+    featuredProductSlugs: ["stable-high-chair-with-harness", "family-first-aid-emergency-kit", "bath-spout-cover-non-slip-mat"],
+    relatedArticleSlugs: ["safest-high-chair-features", "how-to-check-product-recalls", "family-first-aid-kits-for-parents"],
+    sections: [
+      {
+        heading: "Feeding safety is repetitive",
+        body: [
+          "A high chair gets used again and again, often when adults are tired or multitasking. The best choice is stable, easy to buckle, easy to clean, and clear about age and weight limits.",
+          "The restraint system only helps if caregivers use it every meal.",
+        ],
+      },
+      {
+        heading: "Watch the transition to boosters",
+        body: [
+          "Booster seats can be useful when a child has the posture and behavior for them, but the dining chair underneath matters.",
+          "Check chair straps, seat fit, wobble, tray locks, missing parts, and recall status before relying on a feeding seat.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What high chair safety feature matters most?",
+        answer:
+          "Stability, correct child fit, and a restraint system caregivers actually use are the first checks.",
+      },
+      {
+        question: "When should a toddler move to a booster seat?",
+        answer:
+          "Only when the booster fits the child and dining chair, follows manufacturer limits, and the child can sit safely through meals.",
+      },
+    ],
+  },
+  {
+    title: "Window Guards and Blind Cord Safety",
+    slug: "window-guards-and-blind-cord-safety",
+    eyebrow: "Bedroom and Playroom",
+    description:
+      "Compare window guards, window stops, cordless blinds, furniture placement, emergency egress, and rental considerations for child-safe rooms.",
+    image: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    keywords: ["child safety window guards", "window stops child safety", "cordless blinds child safety"],
+    featuredProductSlugs: ["window-guards-cordless-blind-safety", "anti-tip-furniture-anchors", "childproof-cabinet-lock-set"],
+    relatedArticleSlugs: ["nursery-safety-checklist", "anti-tip-furniture-anchor-guide", "baby-proofing-checklist-products"],
+    sections: [
+      {
+        heading: "Windows are a room-layout problem",
+        body: [
+          "Window safety is not just a product choice. Furniture placement, climbable storage, blind cords, window opening size, and room use all affect the risk.",
+          "Move climbable furniture away from windows before relying on any accessory.",
+        ],
+      },
+      {
+        heading: "Preserve emergency escape",
+        body: [
+          "Window guards and stops must match the window type and should not create a new emergency-egress problem.",
+          "Parents in rentals should also check landlord rules, local requirements, and whether a product can be installed and removed responsibly.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Are window guards better than window stops?",
+        answer:
+          "It depends on the window, room, fall risk, and emergency-egress needs. Both require careful fit and installation checks.",
+      },
+      {
+        question: "Should parents replace corded blinds?",
+        answer:
+          "Cordless window coverings are often a safer direction, especially in children's rooms and play areas.",
+      },
+    ],
+  },
+  {
+    title: "Medicine Storage for Kids' Homes",
+    slug: "medicine-storage-for-kids-homes",
+    eyebrow: "Poison Prevention",
+    description:
+      "Compare medicine lock boxes, high storage habits, travel medication storage, grandparent homes, expiration checks, and emergency contact planning.",
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1200&q=80",
+    keywords: ["medicine lock box child safety", "child safe medication storage", "poison prevention kids"],
+    featuredProductSlugs: ["medicine-lock-box", "family-first-aid-emergency-kit", "childproof-cabinet-lock-set"],
+    relatedArticleSlugs: ["family-first-aid-kits-for-parents", "baby-proofing-checklist-products", "how-to-check-product-recalls"],
+    sections: [
+      {
+        heading: "Medicine needs its own system",
+        body: [
+          "Medication, vitamins, supplements, and small health items can spread across purses, counters, bathrooms, guest rooms, and travel bags.",
+          "A lock box helps only when adults consistently return items to it and keep it out of reach.",
+        ],
+      },
+      {
+        heading: "Plan for visitors and travel",
+        body: [
+          "Grandparent homes, overnight bags, and visitor purses can introduce medication risks even when the main home is organized.",
+          "Use locked storage, high placement, expiration checks, and emergency contact planning as a combined routine.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is a medicine lock box enough?",
+        answer:
+          "No. It should be combined with high storage, consistent habits, visitor awareness, and emergency contact planning.",
+      },
+      {
+        question: "What belongs in child-safe medicine storage?",
+        answer:
+          "Prescription medicines, over-the-counter medicines, vitamins, supplements, dosing tools, and small health items should be stored where children cannot access them.",
+      },
+    ],
+  },
 ];
 
 export function getTopicHubBySlug(slug: string) {

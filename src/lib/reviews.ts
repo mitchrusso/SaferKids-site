@@ -164,6 +164,76 @@ export const reviewProducts: ReviewProduct[] = [
     cons: ["Needs periodic restocking", "Medicines require separate safe storage"],
     amazon: amazonSearch("family first aid kit child safety home car"),
   },
+  {
+    name: "Non-WiFi Baby Monitor",
+    slug: "non-wifi-baby-monitor",
+    image: "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=80",
+    bestFor: "Best privacy-first nursery monitor category",
+    category: "Monitoring",
+    weight: "Signal: local radio monitor or closed system",
+    capacity: "Verify range, battery life, camera placement, and cord routing",
+    summary: "A non-WiFi baby monitor can be a simpler choice for parents who want fewer app, password, and network-security decisions.",
+    features: ["Local parent unit", "No home WiFi required", "Night vision options", "Low-battery alert", "Cord-safe mounting to verify"],
+    pros: ["Reduces app and cloud-account complexity", "Often easier for grandparents or babysitters", "Keeps focus on placement and safe sleep basics"],
+    cons: ["Range can be limited", "Still requires safe cord routing and realistic expectations"],
+    amazon: amazonSearch("non wifi baby monitor video secure nursery"),
+  },
+  {
+    name: "Childproof Cabinet Lock Set",
+    slug: "childproof-cabinet-lock-set",
+    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80",
+    bestFor: "Best kitchen and bathroom access control",
+    category: "Home Childproofing",
+    weight: "Install: adhesive, magnetic, or hardware-mounted",
+    capacity: "Verify cabinet material, cleaner storage, and adult usability",
+    summary: "Cabinet locks are most useful when they fit the cabinet, hold up to daily use, and keep chemicals, sharp tools, medicines, and small objects out of reach.",
+    features: ["Magnetic or latch design", "Adhesive or screw-in install", "Multi-pack options", "Adult release access", "Cabinet material compatibility"],
+    pros: ["Targets common kitchen and bath hazards", "Works well with higher storage habits", "Useful for renters when fit is checked"],
+    cons: ["Adhesive can fail on dirty or textured surfaces", "Adults must relock cabinets every time"],
+    amazon: amazonSearch("childproof cabinet locks magnetic adhesive baby proofing"),
+  },
+  {
+    name: "Stable High Chair With Harness",
+    slug: "stable-high-chair-with-harness",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=1200&q=80",
+    bestFor: "Best daily feeding safety checklist category",
+    category: "Feeding Safety",
+    weight: "Fit: child age, posture, and weight limits",
+    capacity: "Verify restraint, stability, tray lock, and cleaning design",
+    summary: "A safer high chair choice starts with stability, restraints that are used every meal, clear limits, and a design that caregivers can clean and operate consistently.",
+    features: ["Harness or restraint system", "Wide stable base", "Tray lock", "Foot support to verify", "Easy-clean surfaces"],
+    pros: ["Supports repeated daily routines", "Stability and restraints are easy to inspect", "Can reduce climbing and slipping risk when used correctly"],
+    cons: ["Bulky models can be hard to store", "Missing or unused straps change the safety picture"],
+    amazon: amazonSearch("stable high chair harness safety baby toddler"),
+  },
+  {
+    name: "Window Guards and Cordless Blind Safety",
+    slug: "window-guards-cordless-blind-safety",
+    image: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    bestFor: "Best upstairs bedroom and playroom window check",
+    category: "Home Childproofing",
+    weight: "Install: window type and emergency egress rules",
+    capacity: "Verify guard, stop, blind cord, and landlord requirements",
+    summary: "Window safety is about preventing access, reducing fall risk, and removing cord hazards without blocking required emergency escape routes.",
+    features: ["Window guard or stop", "Cordless blind options", "Emergency release to verify", "Window-type compatibility", "Rental-friendly planning"],
+    pros: ["Targets a serious hidden hazard", "Useful in bedrooms and playrooms", "Pairs well with furniture placement changes"],
+    cons: ["Must preserve emergency egress where required", "Fit depends heavily on window design"],
+    amazon: amazonSearch("child safety window guards window stops cordless blinds"),
+  },
+  {
+    name: "Medicine Lock Box",
+    slug: "medicine-lock-box",
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1200&q=80",
+    bestFor: "Best poison-prevention storage upgrade",
+    category: "Emergency Readiness",
+    weight: "Fit: home, travel, grandparents, and shared bathrooms",
+    capacity: "Verify lock type, capacity, and child-resistant storage habits",
+    summary: "A medicine lock box helps keep medications, vitamins, and small health items together and out of reach when paired with high storage and regular cleanouts.",
+    features: ["Locking lid", "Portable size options", "Organizer compartments", "Travel-friendly models", "Emergency access planning"],
+    pros: ["Clear habit for medications and vitamins", "Useful in homes with visitors or grandparents", "Pairs well with Poison Control contact planning"],
+    cons: ["Needs consistent use", "Should not be the only layer of protection"],
+    amazon: amazonSearch("medicine lock box child safety medication storage"),
+  },
 ];
 
 export function getReviewProductBySlug(slug: string) {
@@ -197,6 +267,33 @@ export function getProductDecision(product: ReviewProduct): ProductDecision {
       considerAnotherWhen: ["The listing has unclear age guidance.", "Parts can detach, fit in a child mouth, or hide magnets or batteries."],
       setupTip: "Check the age label, small parts, magnets, batteries, and recall history before giving the toy to a child.",
       searchIntent: "non toxic age appropriate safe toys",
+    };
+  }
+
+  if (category.includes("monitor")) {
+    return {
+      bestWhen: ["You want a simpler monitor setup with fewer app and account decisions.", "You can route cords safely away from the crib or sleep space.", "You understand that monitors do not replace safe sleep practices or supervision."],
+      considerAnotherWhen: ["You need remote phone access while away from home.", "You cannot mount the camera and cords safely out of reach."],
+      setupTip: "Place the monitor and all cords well away from the crib, then test range and alerts from normal caregiver locations.",
+      searchIntent: "secure non wifi baby monitor shopping",
+    };
+  }
+
+  if (category.includes("feeding")) {
+    return {
+      bestWhen: ["The chair fits the child's age, weight, and posture.", "Caregivers will use the restraint system every meal.", "You can keep the chair away from surfaces a child can push against."],
+      considerAnotherWhen: ["The straps are missing, hard to clean, or rarely used.", "The chair wobbles, has unclear limits, or has a recall concern."],
+      setupTip: "Buckle the restraint every time and place the chair where the child cannot push off a table, wall, counter, or cabinet.",
+      searchIntent: "safe high chair harness shopping",
+    };
+  }
+
+  if (category.includes("emergency")) {
+    return {
+      bestWhen: ["You want medications, first-aid supplies, or emergency items organized and out of reach.", "Adults can access the box quickly while children cannot.", "You will check expiration dates and restock supplies."],
+      considerAnotherWhen: ["The lock is flimsy or easy to bypass.", "You need professional guidance on what medications or supplies belong in the home."],
+      setupTip: "Keep locked supplies high, dry, labeled, and separate from ordinary child-accessible storage.",
+      searchIntent: "child safe medicine lock box first aid kit",
     };
   }
 
