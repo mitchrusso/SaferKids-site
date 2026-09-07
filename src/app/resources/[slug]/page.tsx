@@ -104,7 +104,7 @@ export async function generateMetadata({ params }: ArticlePageProps) {
   }
 
   return {
-    title: `${article.title} | Safer Kids`,
+    title: article.title,
     description: article.excerpt,
     alternates: {
       canonical: `/resources/${article.slug}`,
