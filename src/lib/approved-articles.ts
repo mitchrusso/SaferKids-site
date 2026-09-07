@@ -6349,5 +6349,61 @@ export const approvedResourceArticles: ResourceArticle[] = [
     ],
     "takeaway": "Most 20 toy rule vs montessori toy philosophy failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   }
+  ,{
+    "title": "Button Battery Safety: A Room-by-Room Home Audit",
+    "slug": "button-battery-safety-home-audit",
+    "publishDate": "2026-09-07",
+    "publishAt": "2026-09-07T09:00:00-04:00",
+    "category": "Baby Proofing",
+    "image": "/images/button-battery-safety-audit.svg",
+    "excerpt": "Find hidden button batteries, test compartment closures, store spares and used cells, and build a repeatable monthly home audit.",
+    "keywords": ["button battery safety", "button battery childproofing", "coin battery home audit"],
+    "table": {
+      "caption": "Button-battery audit: what to inspect and what action to take",
+      "columns": ["Location", "Look for", "Action"],
+      "rows": [
+        ["Living room", "Remotes, flameless candles, key fobs, talking books", "Test every compartment; move loose batteries to locked storage"],
+        ["Bedroom", "Thermometers, watches, light-up toys, hearing-aid supplies", "Inventory spares and keep packaging intact"],
+        ["Kitchen and office", "Scales, calculators, cards, small gadgets", "Check closures after every battery change"],
+        ["Garage and entry", "Car fobs, trackers, bike lights", "Keep used cells in a closed container until disposal"],
+        ["Visitor bags", "Keys, medication devices, greeting cards", "Provide high, closed storage before children enter"]
+      ]
+    },
+    "sections": [
+      {"heading":"The short answer","body":[
+        {"text":"Button-battery safety is a system, not a one-time childproofing purchase. Walk every room, identify devices that use coin-shaped cells, confirm that each compartment needs a tool or two independent actions to open, lock away replacement batteries, and account for every used cell immediately. A battery that has gone flat can still cause injury.","sourceIds":["cpsc-childproofing","cpsc-child-safety"]},
+        {"text":"If a child may have swallowed or inserted a battery, do not wait for symptoms and do not induce vomiting. Seek emergency guidance immediately. In the United States, call the National Battery Ingestion Hotline at 800-498-8666 or 911 for life-threatening symptoms. This article is educational and does not replace emergency, pediatric, or product-specific advice.","sourceIds":["cpsc-child-safety"]}
+      ]},
+      {"heading":"Why the usual toy-box check is incomplete","body":[
+        {"text":"Parents often begin with toys, yet button batteries also appear in remote controls, key fobs, digital scales, thermometers, hearing aids, trackers, small lights, musical cards, and decorations. The useful question is not whether an item looks child-oriented. It is whether a child can reach the item, drop it, pry it open, or find the battery after an adult changes it.","sourceIds":["cpsc-childproofing","cpsc-recalls"]},
+        {"text":"Start at child height, then repeat the audit from the places adults unload pockets and bags. Coffee tables, nightstands, kitchen counters, purses, backpacks, and guest-room dressers are common transition points where a protected battery can become a loose battery.","sourceIds":["cpsc-childproofing"]}
+      ]},
+      {"heading":"Run the five-step audit","body":[
+        {"text":"First, make a device inventory. Put a removable dot on every device that contains a coin cell so another caregiver can recognize it. Record the brand and model of unfamiliar products, especially hand-me-downs, imports, and items without instructions.","sourceIds":["cpsc-recalls","safer-products"]},
+        {"text":"Second, test the compartment with normal hand pressure. A screw is useful only when present, engaged, and not stripped. If the closure is broken, stop using the product and follow the manufacturer’s repair or disposal instructions; tape is not a durable substitute for a designed fastener.","sourceIds":["cpsc-child-safety","cpsc-recalls"]},
+        {"text":"Third, create one locked storage point for unopened batteries. Keep them in original packaging when practical so size, chemistry, warnings, and dates remain visible. High shelves alone are not enough once children climb or furniture moves.","sourceIds":["cpsc-childproofing"]},
+        {"text":"Fourth, count batteries during every change: one new cell goes into the device and one used cell goes directly into a closed collection container. Never leave the old cell on a counter while testing the device. Follow local battery-disposal rules and the manufacturer’s instructions.","sourceIds":["cpsc-child-safety"]},
+        {"text":"Fifth, repeat the audit monthly, after birthdays and holidays, when guests arrive, and whenever a new electronic item enters the home. Search the CPSC recall database by product name and model; also review incident information when a product’s closure seems questionable.","sourceIds":["cpsc-recalls","safer-products"]}
+      ]},
+      {"heading":"Build a response plan before you need it","body":[
+        {"text":"Post the hotline number with other emergency contacts and save it in caregivers’ phones. Keep product packaging or a photo of the battery label when possible, but never delay care while searching for a model number. Symptoms may be absent or nonspecific, which is why suspected exposure deserves immediate expert direction.","sourceIds":["cpsc-child-safety"]},
+        {"text":"Brief babysitters, grandparents, older siblings, and visitors. Ask them to place keys, hearing-aid batteries, small electronics, and musical cards in the designated closed storage area. The goal is not fear; it is removing improvisation from a time-sensitive hazard.","sourceIds":["cpsc-childproofing"]}
+      ]},
+      {"heading":"Buying and hand-me-down decisions","body":[
+        {"text":"Before buying a product with a coin cell, look for clear manufacturer identity, model information, age grading, warnings, and a compartment that cannot be opened casually. For online marketplace products, a photograph of a screw is not proof that the delivered item uses the same closure. Inspect the actual product before it enters play or living space.","sourceIds":["cpsc-toy-safety","cpsc-recalls"]},
+        {"text":"Treat hand-me-downs as a fresh inspection. Find the manual, check the model against current recalls, examine the compartment and fastener, and verify that no pieces are missing. Retire an item when its identity, intended battery, or closure condition cannot be established reliably.","sourceIds":["cpsc-recalls","safer-products"]},
+        {"text":"Do not assume a product is appropriate merely because it was sold for children. Age grading, intended use, supervision, condition, and the child’s current abilities all matter. Report concerning product failures rather than relying only on a seller review.","sourceIds":["cpsc-toy-safety","safer-products"]}
+      ]},
+      {"heading":"Questions caregivers usually ask","body":[
+        {"text":"Is tape enough? Tape may loosen, tear, or be removed and should not be treated as a permanent repair for a failed compartment. Follow the manufacturer’s direction or remove the device from use. Is a dead battery harmless? No; depleted cells still require controlled storage and disposal. Is a high drawer enough? Use locked or otherwise child-resistant storage because reach changes quickly.","sourceIds":["cpsc-childproofing","cpsc-child-safety"]},
+        {"text":"How often should the audit happen? Monthly is a practical baseline, with extra checks after battery changes, visitors, gifts, travel, and room rearrangement. The best frequency is one caregivers can repeat and document without allowing new devices to wait for the next scheduled review.","sourceIds":["cpsc-childproofing"]}
+      ]},
+      {"heading":"What to document","body":[
+        {"text":"Keep a simple log with the date, room, device, compartment condition, corrective action, and next review. Photograph damage before contacting a seller or manufacturer. If the product has failed in a way that could create a hazard, report it through SaferProducts.gov and retain purchase and model information.","sourceIds":["safer-products","cpsc-recalls"]},
+        {"text":"A completed audit should leave no loose batteries, no unidentified devices, no broken closures in use, and no uncertainty about whom to call. Recheck the system as a child’s reach, climbing ability, and routines change.","sourceIds":["cpsc-childproofing","cpsc-child-safety"]}
+      ]}
+    ],
+    "sourceIds": ["cpsc-childproofing","cpsc-child-safety","cpsc-recalls","safer-products"],
+    "takeaway": "Inventory every coin-cell device, verify tool-secured compartments, lock up new and used batteries, and act immediately after any suspected swallowing or insertion. No product or checklist can make a home absolutely safe; repeated inspection and informed supervision remain essential."
+  }
 ];
-
