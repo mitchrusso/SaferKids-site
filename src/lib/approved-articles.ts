@@ -6348,8 +6348,8 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "safer-products"
     ],
     "takeaway": "Most 20 toy rule vs montessori toy philosophy failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
-  }
-  ,{
+  },
+  {
     "title": "Button Battery Safety: A Room-by-Room Home Audit",
     "slug": "button-battery-safety-home-audit",
     "publishDate": "2026-09-07",
@@ -6357,53 +6357,856 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Baby Proofing",
     "image": "/images/button-battery-safety-audit.svg",
     "excerpt": "Find hidden button batteries, test compartment closures, store spares and used cells, and build a repeatable monthly home audit.",
-    "keywords": ["button battery safety", "button battery childproofing", "coin battery home audit"],
+    "keywords": [
+      "button battery safety",
+      "button battery childproofing",
+      "coin battery home audit"
+    ],
     "table": {
       "caption": "Button-battery audit: what to inspect and what action to take",
-      "columns": ["Location", "Look for", "Action"],
+      "columns": [
+        "Location",
+        "Look for",
+        "Action"
+      ],
       "rows": [
-        ["Living room", "Remotes, flameless candles, key fobs, talking books", "Test every compartment; move loose batteries to locked storage"],
-        ["Bedroom", "Thermometers, watches, light-up toys, hearing-aid supplies", "Inventory spares and keep packaging intact"],
-        ["Kitchen and office", "Scales, calculators, cards, small gadgets", "Check closures after every battery change"],
-        ["Garage and entry", "Car fobs, trackers, bike lights", "Keep used cells in a closed container until disposal"],
-        ["Visitor bags", "Keys, medication devices, greeting cards", "Provide high, closed storage before children enter"]
+        [
+          "Living room",
+          "Remotes, flameless candles, key fobs, talking books",
+          "Test every compartment; move loose batteries to locked storage"
+        ],
+        [
+          "Bedroom",
+          "Thermometers, watches, light-up toys, hearing-aid supplies",
+          "Inventory spares and keep packaging intact"
+        ],
+        [
+          "Kitchen and office",
+          "Scales, calculators, cards, small gadgets",
+          "Check closures after every battery change"
+        ],
+        [
+          "Garage and entry",
+          "Car fobs, trackers, bike lights",
+          "Keep used cells in a closed container until disposal"
+        ],
+        [
+          "Visitor bags",
+          "Keys, medication devices, greeting cards",
+          "Provide high, closed storage before children enter"
+        ]
       ]
     },
     "sections": [
-      {"heading":"The short answer","body":[
-        {"text":"Button-battery safety is a system, not a one-time childproofing purchase. Walk every room, identify devices that use coin-shaped cells, confirm that each compartment needs a tool or two independent actions to open, lock away replacement batteries, and account for every used cell immediately. A battery that has gone flat can still cause injury.","sourceIds":["cpsc-childproofing","cpsc-child-safety"]},
-        {"text":"If a child may have swallowed or inserted a battery, do not wait for symptoms and do not induce vomiting. Seek emergency guidance immediately. In the United States, call the National Battery Ingestion Hotline at 800-498-8666 or 911 for life-threatening symptoms. This article is educational and does not replace emergency, pediatric, or product-specific advice.","sourceIds":["cpsc-child-safety"]}
-      ]},
-      {"heading":"Why the usual toy-box check is incomplete","body":[
-        {"text":"Parents often begin with toys, yet button batteries also appear in remote controls, key fobs, digital scales, thermometers, hearing aids, trackers, small lights, musical cards, and decorations. The useful question is not whether an item looks child-oriented. It is whether a child can reach the item, drop it, pry it open, or find the battery after an adult changes it.","sourceIds":["cpsc-childproofing","cpsc-recalls"]},
-        {"text":"Start at child height, then repeat the audit from the places adults unload pockets and bags. Coffee tables, nightstands, kitchen counters, purses, backpacks, and guest-room dressers are common transition points where a protected battery can become a loose battery.","sourceIds":["cpsc-childproofing"]}
-      ]},
-      {"heading":"Run the five-step audit","body":[
-        {"text":"First, make a device inventory. Put a removable dot on every device that contains a coin cell so another caregiver can recognize it. Record the brand and model of unfamiliar products, especially hand-me-downs, imports, and items without instructions.","sourceIds":["cpsc-recalls","safer-products"]},
-        {"text":"Second, test the compartment with normal hand pressure. A screw is useful only when present, engaged, and not stripped. If the closure is broken, stop using the product and follow the manufacturer’s repair or disposal instructions; tape is not a durable substitute for a designed fastener.","sourceIds":["cpsc-child-safety","cpsc-recalls"]},
-        {"text":"Third, create one locked storage point for unopened batteries. Keep them in original packaging when practical so size, chemistry, warnings, and dates remain visible. High shelves alone are not enough once children climb or furniture moves.","sourceIds":["cpsc-childproofing"]},
-        {"text":"Fourth, count batteries during every change: one new cell goes into the device and one used cell goes directly into a closed collection container. Never leave the old cell on a counter while testing the device. Follow local battery-disposal rules and the manufacturer’s instructions.","sourceIds":["cpsc-child-safety"]},
-        {"text":"Fifth, repeat the audit monthly, after birthdays and holidays, when guests arrive, and whenever a new electronic item enters the home. Search the CPSC recall database by product name and model; also review incident information when a product’s closure seems questionable.","sourceIds":["cpsc-recalls","safer-products"]}
-      ]},
-      {"heading":"Build a response plan before you need it","body":[
-        {"text":"Post the hotline number with other emergency contacts and save it in caregivers’ phones. Keep product packaging or a photo of the battery label when possible, but never delay care while searching for a model number. Symptoms may be absent or nonspecific, which is why suspected exposure deserves immediate expert direction.","sourceIds":["cpsc-child-safety"]},
-        {"text":"Brief babysitters, grandparents, older siblings, and visitors. Ask them to place keys, hearing-aid batteries, small electronics, and musical cards in the designated closed storage area. The goal is not fear; it is removing improvisation from a time-sensitive hazard.","sourceIds":["cpsc-childproofing"]}
-      ]},
-      {"heading":"Buying and hand-me-down decisions","body":[
-        {"text":"Before buying a product with a coin cell, look for clear manufacturer identity, model information, age grading, warnings, and a compartment that cannot be opened casually. For online marketplace products, a photograph of a screw is not proof that the delivered item uses the same closure. Inspect the actual product before it enters play or living space.","sourceIds":["cpsc-toy-safety","cpsc-recalls"]},
-        {"text":"Treat hand-me-downs as a fresh inspection. Find the manual, check the model against current recalls, examine the compartment and fastener, and verify that no pieces are missing. Retire an item when its identity, intended battery, or closure condition cannot be established reliably.","sourceIds":["cpsc-recalls","safer-products"]},
-        {"text":"Do not assume a product is appropriate merely because it was sold for children. Age grading, intended use, supervision, condition, and the child’s current abilities all matter. Report concerning product failures rather than relying only on a seller review.","sourceIds":["cpsc-toy-safety","safer-products"]}
-      ]},
-      {"heading":"Questions caregivers usually ask","body":[
-        {"text":"Is tape enough? Tape may loosen, tear, or be removed and should not be treated as a permanent repair for a failed compartment. Follow the manufacturer’s direction or remove the device from use. Is a dead battery harmless? No; depleted cells still require controlled storage and disposal. Is a high drawer enough? Use locked or otherwise child-resistant storage because reach changes quickly.","sourceIds":["cpsc-childproofing","cpsc-child-safety"]},
-        {"text":"How often should the audit happen? Monthly is a practical baseline, with extra checks after battery changes, visitors, gifts, travel, and room rearrangement. The best frequency is one caregivers can repeat and document without allowing new devices to wait for the next scheduled review.","sourceIds":["cpsc-childproofing"]}
-      ]},
-      {"heading":"What to document","body":[
-        {"text":"Keep a simple log with the date, room, device, compartment condition, corrective action, and next review. Photograph damage before contacting a seller or manufacturer. If the product has failed in a way that could create a hazard, report it through SaferProducts.gov and retain purchase and model information.","sourceIds":["safer-products","cpsc-recalls"]},
-        {"text":"A completed audit should leave no loose batteries, no unidentified devices, no broken closures in use, and no uncertainty about whom to call. Recheck the system as a child’s reach, climbing ability, and routines change.","sourceIds":["cpsc-childproofing","cpsc-child-safety"]}
-      ]}
+      {
+        "heading": "The short answer",
+        "body": [
+          {
+            "text": "Button-battery safety is a system, not a one-time childproofing purchase. Walk every room, identify devices that use coin-shaped cells, confirm that each compartment needs a tool or two independent actions to open, lock away replacement batteries, and account for every used cell immediately. A battery that has gone flat can still cause injury.",
+            "sourceIds": [
+              "cpsc-childproofing",
+              "cpsc-child-safety"
+            ]
+          },
+          {
+            "text": "If a child may have swallowed or inserted a battery, do not wait for symptoms and do not induce vomiting. Seek emergency guidance immediately. In the United States, call the National Battery Ingestion Hotline at 800-498-8666 or 911 for life-threatening symptoms. This article is educational and does not replace emergency, pediatric, or product-specific advice.",
+            "sourceIds": [
+              "cpsc-child-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Why the usual toy-box check is incomplete",
+        "body": [
+          {
+            "text": "Parents often begin with toys, yet button batteries also appear in remote controls, key fobs, digital scales, thermometers, hearing aids, trackers, small lights, musical cards, and decorations. The useful question is not whether an item looks child-oriented. It is whether a child can reach the item, drop it, pry it open, or find the battery after an adult changes it.",
+            "sourceIds": [
+              "cpsc-childproofing",
+              "cpsc-recalls"
+            ]
+          },
+          {
+            "text": "Start at child height, then repeat the audit from the places adults unload pockets and bags. Coffee tables, nightstands, kitchen counters, purses, backpacks, and guest-room dressers are common transition points where a protected battery can become a loose battery.",
+            "sourceIds": [
+              "cpsc-childproofing"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Run the five-step audit",
+        "body": [
+          {
+            "text": "First, make a device inventory. Put a removable dot on every device that contains a coin cell so another caregiver can recognize it. Record the brand and model of unfamiliar products, especially hand-me-downs, imports, and items without instructions.",
+            "sourceIds": [
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Second, test the compartment with normal hand pressure. A screw is useful only when present, engaged, and not stripped. If the closure is broken, stop using the product and follow the manufacturer’s repair or disposal instructions; tape is not a durable substitute for a designed fastener.",
+            "sourceIds": [
+              "cpsc-child-safety",
+              "cpsc-recalls"
+            ]
+          },
+          {
+            "text": "Third, create one locked storage point for unopened batteries. Keep them in original packaging when practical so size, chemistry, warnings, and dates remain visible. High shelves alone are not enough once children climb or furniture moves.",
+            "sourceIds": [
+              "cpsc-childproofing"
+            ]
+          },
+          {
+            "text": "Fourth, count batteries during every change: one new cell goes into the device and one used cell goes directly into a closed collection container. Never leave the old cell on a counter while testing the device. Follow local battery-disposal rules and the manufacturer’s instructions.",
+            "sourceIds": [
+              "cpsc-child-safety"
+            ]
+          },
+          {
+            "text": "Fifth, repeat the audit monthly, after birthdays and holidays, when guests arrive, and whenever a new electronic item enters the home. Search the CPSC recall database by product name and model; also review incident information when a product’s closure seems questionable.",
+            "sourceIds": [
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Build a response plan before you need it",
+        "body": [
+          {
+            "text": "Post the hotline number with other emergency contacts and save it in caregivers’ phones. Keep product packaging or a photo of the battery label when possible, but never delay care while searching for a model number. Symptoms may be absent or nonspecific, which is why suspected exposure deserves immediate expert direction.",
+            "sourceIds": [
+              "cpsc-child-safety"
+            ]
+          },
+          {
+            "text": "Brief babysitters, grandparents, older siblings, and visitors. Ask them to place keys, hearing-aid batteries, small electronics, and musical cards in the designated closed storage area. The goal is not fear; it is removing improvisation from a time-sensitive hazard.",
+            "sourceIds": [
+              "cpsc-childproofing"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Buying and hand-me-down decisions",
+        "body": [
+          {
+            "text": "Before buying a product with a coin cell, look for clear manufacturer identity, model information, age grading, warnings, and a compartment that cannot be opened casually. For online marketplace products, a photograph of a screw is not proof that the delivered item uses the same closure. Inspect the actual product before it enters play or living space.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-recalls"
+            ]
+          },
+          {
+            "text": "Treat hand-me-downs as a fresh inspection. Find the manual, check the model against current recalls, examine the compartment and fastener, and verify that no pieces are missing. Retire an item when its identity, intended battery, or closure condition cannot be established reliably.",
+            "sourceIds": [
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Do not assume a product is appropriate merely because it was sold for children. Age grading, intended use, supervision, condition, and the child’s current abilities all matter. Report concerning product failures rather than relying only on a seller review.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Questions caregivers usually ask",
+        "body": [
+          {
+            "text": "Is tape enough? Tape may loosen, tear, or be removed and should not be treated as a permanent repair for a failed compartment. Follow the manufacturer’s direction or remove the device from use. Is a dead battery harmless? No; depleted cells still require controlled storage and disposal. Is a high drawer enough? Use locked or otherwise child-resistant storage because reach changes quickly.",
+            "sourceIds": [
+              "cpsc-childproofing",
+              "cpsc-child-safety"
+            ]
+          },
+          {
+            "text": "How often should the audit happen? Monthly is a practical baseline, with extra checks after battery changes, visitors, gifts, travel, and room rearrangement. The best frequency is one caregivers can repeat and document without allowing new devices to wait for the next scheduled review.",
+            "sourceIds": [
+              "cpsc-childproofing"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "What to document",
+        "body": [
+          {
+            "text": "Keep a simple log with the date, room, device, compartment condition, corrective action, and next review. Photograph damage before contacting a seller or manufacturer. If the product has failed in a way that could create a hazard, report it through SaferProducts.gov and retain purchase and model information.",
+            "sourceIds": [
+              "safer-products",
+              "cpsc-recalls"
+            ]
+          },
+          {
+            "text": "A completed audit should leave no loose batteries, no unidentified devices, no broken closures in use, and no uncertainty about whom to call. Recheck the system as a child’s reach, climbing ability, and routines change.",
+            "sourceIds": [
+              "cpsc-childproofing",
+              "cpsc-child-safety"
+            ]
+          }
+        ]
+      }
     ],
-    "sourceIds": ["cpsc-childproofing","cpsc-child-safety","cpsc-recalls","safer-products"],
+    "sourceIds": [
+      "cpsc-childproofing",
+      "cpsc-child-safety",
+      "cpsc-recalls",
+      "safer-products"
+    ],
     "takeaway": "Inventory every coin-cell device, verify tool-secured compartments, lock up new and used batteries, and act immediately after any suspected swallowing or insertion. No product or checklist can make a home absolutely safe; repeated inspection and informed supervision remain essential."
+  },
+  {
+    "title": "How to Check a Used Stroller Before Accepting It",
+    "slug": "how-to-check-a-used-stroller-before-accepting-it",
+    "publishDate": "2026-09-08",
+    "publishAt": "2026-09-08T09:00:00-04:00",
+    "category": "Toy Safety",
+    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "excerpt": "Plan strollers with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "keywords": [
+      "used stroller safety check"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "The difficult part of strollers is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "This guide is for a reader who has a real how to check a used stroller before accepting it decision in front of them. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "By Mitch Russo · Updated 2026-09-08",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "At a glance: six checkpoints for strollers",
+        "body": [
+          {
+            "text": "1. Find the manufacturer, model, date code, and serial number.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "2. Search current recalls and obtain the original instructions.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "3. Inspect frame locks, hinges, brakes, wheels, and restraint parts.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "4. Reject improvised repairs, missing hardware, or unexplained damage.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "5. Test folding, braking, steering, and harness operation without a child.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "6. Confirm fit and use with close adult supervision.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Read the list once before acting. Circle the checkpoint with the weakest evidence. That is where the plan needs attention; polishing a later step cannot compensate for an unresolved early constraint.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Define the result and the stop rule",
+        "body": [
+          {
+            "text": "Describe the result in observable terms. Include the person, object, or business process affected; the real environment; the acceptable range; and the point at which the work must stop. For strollers, an unacceptable outcome includes a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Separate hard constraints from preferences. A hard constraint can disqualify the method even when it is faster or cheaper. Write assumptions as assumptions, attach an owner, and give high-consequence unknowns a deadline for resolution.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Prepare with evidence that can change the decision",
+        "body": [
+          {
+            "text": "Walk through the actual setting and gather the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Do not substitute a product page, generic summary, or remembered dimension for something you can observe directly. Photograph or note the condition that is easiest to misremember.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Set up the workspace and communication path before the demanding step. Find the manufacturer, model, date code, and serial number; then confirm that search current recalls and obtain the original instructions. Make the stop authority explicit. The person who notices a problem should not need to negotiate permission while the exposure or failure is growing.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The complete walkthrough",
+        "body": [
+          {
+            "text": "1. Find the manufacturer, model, date code, and serial number.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Practice this step on a closely supervised first-use period after all checks pass: find the manufacturer, model, date code, and serial number. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “search current recalls and obtain the original instructions,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "2. Search current recalls and obtain the original instructions.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Use a two-person check when the consequence is meaningful. One person should search current recalls and obtain the original instructions; the other should compare the action with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “inspect frame locks, hinges, brakes, wheels, and restraint parts,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "3. Inspect frame locks, hinges, brakes, wheels, and restraint parts.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Document the starting condition before you inspect frame locks, hinges, brakes, wheels, and restraint parts. Without a baseline, the team may notice change but cannot judge whether it is acceptable. The baseline for strollers should be brief, observable, and saved with product identity, age label, recall date, inspection result, supervision need, storage location, and next check.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “reject improvised repairs, missing hardware, or unexplained damage,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "4. Reject improvised repairs, missing hardware, or unexplained damage.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Close the loop after you reject improvised repairs, missing hardware, or unexplained damage. Record the actual outcome, including friction and near misses, rather than only marking the task complete. Use that result to revise the next strollers attempt while the details are still fresh.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “test folding, braking, steering, and harness operation without a child,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "5. Test folding, braking, steering, and harness operation without a child.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Close the loop after you test folding, braking, steering, and harness operation without a child. Record the actual outcome, including friction and near misses, rather than only marking the task complete. Use that result to revise the next strollers attempt while the details are still fresh.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “confirm fit and use with close adult supervision,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "6. Confirm fit and use with close adult supervision.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Close the loop after you confirm fit and use with close adult supervision. Record the actual outcome, including friction and near misses, rather than only marking the task complete. Use that result to revise the next strollers attempt while the details are still fresh.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “schedule the next inspection or review,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Run one representative small test",
+        "body": [
+          {
+            "text": "The first implementation should be a closely supervised first-use period after all checks pass. Make it realistic enough to expose the hard condition but limited enough to reverse. Record product identity, age label, recall date, inspection result, supervision need, storage location, and next check so the result can guide the next attempt.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Keep the test honest. Do not add help, favorable conditions, or expert intervention that will be absent during normal use. If the difficult case cannot be tested responsibly, escalate it to the qualified person or authority who can evaluate it.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Five mistakes that weaken a strollers plan",
+        "body": [
+          {
+            "text": "• Choosing a tool, product, setting, contract form, or template before the strollers requirement is defined.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Testing only the easiest condition and assuming the result represents normal strollers use.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Changing several variables together, which hides the cause of success or failure.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Continuing after a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate because time or money has already been invested.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Finishing the visible task without recording product identity, age label, recall date, inspection result, supervision need, storage location, and next check.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "When a mistake appears, stabilize first. Protect the person, material, rights, equipment, food, environment, or client experience involved. Return to the first checkpoint contradicted by the evidence, revise one variable, and create a new stop rule before trying again.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Safety, permission, and professional boundaries",
+        "body": [
+          {
+            "text": "Educational disclaimer: this guide cannot determine that any product or activity is absolutely safe and does not replace the current label, recall notice, manufacturer instructions, pediatric guidance, or direct adult supervision. Development varies. Remove damaged or uncertain items from use while you verify them, and seek urgent medical help when an ingestion, choking, poisoning, drowning, or other emergency is suspected.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Authoritative starting points:",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• CPSC recalls database",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• CPSC toy-safety guidance",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• HealthyChildren product-safety guidance",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Confirm that a source applies to the exact model, jurisdiction, land manager, product category, transaction, clinical situation, or activity. Save the access date and pair general guidance with current manufacturer instructions or individualized professional advice when appropriate.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Review the result and make it reusable",
+        "body": [
+          {
+            "text": "At the review, ask three questions: What changed? What remained uncertain? Did a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate occur or nearly occur? Assign one owner and date to every follow-up.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Turn the final note into a short checklist for the next person. Include the six checkpoints, the approved range, a photograph or example where useful, the stop rule, and the escalation contact. A workflow is not delegated until another person can recognize both a good result and a reason to stop.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Your next 20 minutes",
+        "body": [
+          {
+            "text": "Write the desired result and the unacceptable outcome. Complete checkpoint one using a current source or direct observation. Then prepare a closely supervised first-use period after all checks pass. If the critical evidence is missing, use the time to send one precise question instead of improvising.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "The goal of this short session is not to finish strollers. It is to reach the first defensible action with the stop rule already in place.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Related practical guides",
+        "body": [
+          {
+            "text": "• toy recall check",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• toy inspection checklist",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• family safety resource library",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "body": [
+          {
+            "text": "What should be verified first?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Verify the fact that could disqualify the entire approach. In this workflow that usually means find the manufacturer, model, date code, and serial number, followed by a check that you can search current recalls and obtain the original instructions under real conditions.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "How detailed should the written plan be?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Detailed enough that another capable person can perform the next checkpoint and recognize a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate. For most situations, one page plus the controlling sources and product identity, age label, recall date, inspection result, supervision need, storage location, and next check is more useful than a long narrative.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "When is a small test not appropriate?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Skip informal testing when a recall, emergency, legal restriction, clinical concern, structural question, food-safety uncertainty, unknown hazardous material, or manufacturer prohibition requires an authoritative response first.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "What evidence should be saved afterward?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Save product identity, age label, recall date, inspection result, supervision need, storage location, and next check. Add the source date, the person who approved the result, and the date or trigger for the next review.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "What if the first attempt fails?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Stop, protect the affected people and property, and preserve the evidence. Identify the earliest failed checkpoint, change one variable, and decide whether a second bounded test or qualified professional review is the responsible next step.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "cpsc-toy-safety",
+      "cpsc-small-parts",
+      "cpsc-recalls",
+      "safer-products"
+    ],
+    "takeaway": "The difficult part of strollers is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   }
 ];
