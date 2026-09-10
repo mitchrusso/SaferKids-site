@@ -14336,5 +14336,653 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "safer-products"
     ],
     "takeaway": "Most safe sleep failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
+  },
+  {
+    "title": "Childproofing a Home Office: Cords, Batteries, and Small...",
+    "slug": "childproofing-a-home-office-cords-batteries-and-small-parts",
+    "publishDate": "2026-09-24",
+    "publishAt": "2026-09-24T09:00:00-04:00",
+    "category": "Toy Safety",
+    "image": "/images/childproofing-a-home-office-cords-batteries-and-small-parts.svg",
+    "excerpt": "Plan baby proofing with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "keywords": [
+      "childproof home office"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "Treat baby proofing as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "This guide is for a reader who has a real childproofing a home office: cords, batteries, and small parts decision in front of them. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "By Mitch Russo · Updated 2026-09-24",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "At a glance: six checkpoints for baby proofing",
+        "body": [
+          {
+            "text": "1. Identify the exact product and intended use.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "2. Check current recalls and official guidance.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "3. Inspect labels, parts, and condition.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "4. Follow the manufacturer instructions.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "5. Test only without exposing a child to uncertainty.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "6. Stop use and escalate damaged, recalled, or unclear items.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Read the list once before acting. Circle the checkpoint with the weakest evidence. That is where the plan needs attention; polishing a later step cannot compensate for an unresolved early constraint.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Define the result and the stop rule",
+        "body": [
+          {
+            "text": "Describe the result in observable terms. Include the person, object, or business process affected; the real environment; the acceptable range; and the point at which the work must stop. For baby proofing, an unacceptable outcome includes a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Separate hard constraints from preferences. A hard constraint can disqualify the method even when it is faster or cheaper. Write assumptions as assumptions, attach an owner, and give high-consequence unknowns a deadline for resolution.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Prepare with evidence that can change the decision",
+        "body": [
+          {
+            "text": "Before scheduling the work, assemble the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Ask which single missing fact could reverse the decision. Resolve that item first; lower-impact questions can remain in the test log.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Set up the workspace and communication path before the demanding step. Identify the exact product and intended use; then confirm that check current recalls and official guidance. Make the stop authority explicit. The person who notices a problem should not need to negotiate permission while the exposure or failure is growing.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The complete walkthrough",
+        "body": [
+          {
+            "text": "1. Identify the exact product and intended use.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Ask what would make this action wrong in the present setting, then identify the exact product and intended use. Compare the answer with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “check current recalls and official guidance,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "2. Check current recalls and official guidance.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Treat this as the handoff checkpoint: check current recalls and official guidance. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the baby proofing instruction is not finished.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “inspect labels, parts, and condition,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "3. Inspect labels, parts, and condition.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Close the loop after you inspect labels, parts, and condition. Record the actual outcome, including friction and near misses, rather than only marking the task complete. Use that result to revise the next baby proofing attempt while the details are still fresh.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “follow the manufacturer instructions,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "4. Follow the manufacturer instructions.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Make “follow the manufacturer instructions” a pass/fail gate. State the acceptable range, then compare it with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Do not average a failed constraint against convenience. The right response to a conflict is to pause baby proofing, resolve the source of truth, and document the decision.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “test only without exposing a child to uncertainty,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "5. Test only without exposing a child to uncertainty.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "For this checkpoint, test only without exposing a child to uncertainty. Observe the real condition rather than the ideal one. A practical record includes product identity, age label, recall date, inspection result, supervision need, storage location, and next check. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “stop use and escalate damaged, recalled, or unclear items,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "6. Stop use and escalate damaged, recalled, or unclear items.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Treat this as the handoff checkpoint: stop use and escalate damaged, recalled, or unclear items. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the baby proofing instruction is not finished.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Checkpoint: before moving to “schedule the next inspection or review,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Run one representative small test",
+        "body": [
+          {
+            "text": "Do not launch the whole plan as the experiment. Trial a closely supervised first-use period after all checks pass, observe without coaching the result toward success, and stop when a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate is present. A bounded failure is useful evidence.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Keep the test honest. Do not add help, favorable conditions, or expert intervention that will be absent during normal use. If the difficult case cannot be tested responsibly, escalate it to the qualified person or authority who can evaluate it.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Five mistakes that weaken a baby proofing plan",
+        "body": [
+          {
+            "text": "• Choosing a tool, product, setting, contract form, or template before the baby proofing requirement is defined.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Testing only the easiest condition and assuming the result represents normal baby proofing use.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Changing several variables together, which hides the cause of success or failure.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Continuing after a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate because time or money has already been invested.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• Finishing the visible task without recording product identity, age label, recall date, inspection result, supervision need, storage location, and next check.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "When a mistake appears, stabilize first. Protect the person, material, rights, equipment, food, environment, or client experience involved. Return to the first checkpoint contradicted by the evidence, revise one variable, and create a new stop rule before trying again.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Safety, permission, and professional boundaries",
+        "body": [
+          {
+            "text": "Educational disclaimer: this guide cannot determine that any product or activity is absolutely safe and does not replace the current label, recall notice, manufacturer instructions, pediatric guidance, or direct adult supervision. Development varies. Remove damaged or uncertain items from use while you verify them, and seek urgent medical help when an ingestion, choking, poisoning, drowning, or other emergency is suspected.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Authoritative starting points:",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• CPSC recalls database",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• CPSC toy-safety guidance",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• HealthyChildren product-safety guidance",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Confirm that a source applies to the exact model, jurisdiction, land manager, product category, transaction, clinical situation, or activity. Save the access date and pair general guidance with current manufacturer instructions or individualized professional advice when appropriate.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Review the result and make it reusable",
+        "body": [
+          {
+            "text": "Close the work with a short audit owned by the supervising adult. Preserve product identity, age label, recall date, inspection result, supervision need, storage location, and next check. That record is the starting point for maintenance, training, renewal, or the next controlled test.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Turn the final note into a short checklist for the next person. Include the six checkpoints, the approved range, a photograph or example where useful, the stop rule, and the escalation contact. A workflow is not delegated until another person can recognize both a good result and a reason to stop.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Your next 20 minutes",
+        "body": [
+          {
+            "text": "Write the desired result and the unacceptable outcome. Complete checkpoint one using a current source or direct observation. Then prepare a closely supervised first-use period after all checks pass. If the critical evidence is missing, use the time to send one precise question instead of improvising.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "The goal of this short session is not to finish baby proofing. It is to reach the first defensible action with the stop rule already in place.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Related practical guides",
+        "body": [
+          {
+            "text": "• toy recall check",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• toy inspection checklist",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "• family safety resource library",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "body": [
+          {
+            "text": "What should be verified first?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Verify the fact that could disqualify the entire approach. In this workflow that usually means identify the exact product and intended use, followed by a check that you can check current recalls and official guidance under real conditions.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "How detailed should the written plan be?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Detailed enough that another capable person can perform the next checkpoint and recognize a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate. For most situations, one page plus the controlling sources and product identity, age label, recall date, inspection result, supervision need, storage location, and next check is more useful than a long narrative.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "When is a small test not appropriate?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Skip informal testing when a recall, emergency, legal restriction, clinical concern, structural question, food-safety uncertainty, unknown hazardous material, or manufacturer prohibition requires an authoritative response first.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "What evidence should be saved afterward?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Save product identity, age label, recall date, inspection result, supervision need, storage location, and next check. Add the source date, the person who approved the result, and the date or trigger for the next review.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "What if the first attempt fails?.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          },
+          {
+            "text": "Stop, protect the affected people and property, and preserve the evidence. Identify the earliest failed checkpoint, change one variable, and decide whether a second bounded test or qualified professional review is the responsible next step.",
+            "sourceIds": [
+              "cpsc-toy-safety",
+              "cpsc-small-parts",
+              "cpsc-recalls",
+              "safer-products"
+            ]
+          }
+        ]
+      }
+    ],
+    "sourceIds": [
+      "cpsc-toy-safety",
+      "cpsc-small-parts",
+      "cpsc-recalls",
+      "safer-products"
+    ],
+    "takeaway": "Treat baby proofing as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   }
 ];
