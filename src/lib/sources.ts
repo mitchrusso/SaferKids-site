@@ -1,4 +1,6 @@
 export const articleSources = [
+  {"id": "editorial-01bc305d67e1be", "title": "CPSC recalls database", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Recalls"},
+  {"id": "editorial-363b84bc774875", "title": "CPSC guidance for suspected swallowing", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Magnets"},
   {
     id: "cpsc-childproofing",
     title: "Childproofing Your Home",

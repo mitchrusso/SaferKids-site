@@ -113,7 +113,7 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
 
   test("Rybbit analytics proxy snippet is present", async ({ page, isMobile }) => {
     test.skip(isMobile, "desktop-only analytics injection check; mobile script presence is verified by production/live checks");
-    await page.goto("/", { waitUntil: "networkidle" });
+    await page.goto("/", { waitUntil: "domcontentloaded" });
     const script = page.locator('script[src="/api/script.js"][data-site-id="c54121fe864a"]');
     await expect(script).toHaveCount(1);
   });
