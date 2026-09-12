@@ -1,4 +1,6 @@
 export const articleSources = [
+  {"id": "editorial-2fb2c0c5728606", "title": "HealthyChildren safety and prevention", "organization": "www.healthychildren.org", "url": "https://www.healthychildren.org/English/safety-prevention/Pages/default.aspx"},
+  {"id": "editorial-42e3b620227cca", "title": "CPSC safety education", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Safety-Education"},
   {"id": "editorial-01bc305d67e1be", "title": "CPSC recalls database", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Recalls"},
   {"id": "editorial-363b84bc774875", "title": "CPSC guidance for suspected swallowing", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Magnets"},
   {
