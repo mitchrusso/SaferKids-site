@@ -8937,5 +8937,215 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-42e3b620227cca"
     ],
     "takeaway": "Register baby gear with its manufacturer using the exact model and manufacture date from the product label, then save the confirmation. Registration gives the company a way to reach you about a recall; it does not replace checking recalls, following instructions, or inspecting the product before use."
+  },
+  {
+    "title": "Secondhand Crib Checklist: Labels, Parts, and Recalls",
+    "seoTitle": "Secondhand Crib Checklist: Labels, Parts, and Recalls",
+    "slug": "secondhand-crib-checklist-labels-parts-and-recalls",
+    "publishDate": "2026-09-15",
+    "publishAt": "2026-09-15T09:00:00-04:00",
+    "category": "Toy Safety",
+    "image": "/images/secondhand-crib-checklist-labels-parts-and-recalls-original.svg",
+    "imageAlt": "Original unbranded crib illustration with a magnified model label and separate parts manual; schematic only, not an assembly or safety certification.",
+    "excerpt": "Check a secondhand crib’s model, manual, parts, recall history, and mattress fit before accepting it. Know when to decline an uncertain crib.",
+    "keywords": [
+      "secondhand crib checklist"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "Decline a secondhand crib when you cannot identify its model, obtain its exact instructions, or establish that all original required parts are present. A low price, a family history of use, and a seller's assurance cannot resolve those gaps. Complete the checks before agreeing to collect it, and keep another appropriate infant sleep space available while questions remain unanswered.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "TL;DR",
+        "body": [
+          {
+            "text": "Ask for clear photographs of every identification label and the assembled crib before arranging pickup. Search the exact model in official recall records, obtain the manufacturer's instructions, and check the crib against its parts diagram. Reject a traditional drop-side crib, improvised repairs, missing hardware, or unexplained damage. A crib that looks attractive in a listing still requires examination and correct assembly before use.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Start with identity before discussing price",
+        "body": [
+          {
+            "text": "Request a photograph of the label itself, rather than a typed model name. Similar-looking cribs can have different hardware, date ranges, or instructions. Ask the seller to include the mattress-support area and both end panels in their pictures; a beautiful front photograph can hide the parts you need to inspect. Save the listing and label images together so you can compare the item at pickup with the item you researched.",
+            "sourceIds": []
+          },
+          {
+            "text": "Check whether the seller is describing a full-size crib, a non-full-size crib, or a play yard. Instructions for one category do not establish compatibility for another. A convertible product may also have separate instructions and kits for each configuration. An included toddler rail does not prove that the infant configuration has all its parts. Ask specifically which configuration is assembled and which pieces will be supplied.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Use recall records without treating silence as approval",
+        "body": [
+          {
+            "text": "Search CPSC recalls by manufacturer and model, and look for the relevant production dates and photographs. Save the result and the date you checked it. A search that returns nothing is not a product inspection or certification. If a notice appears, follow the notice's remedy instructions; do not assume that tightening a bolt or adding a bracket resolves the defect.",
+            "sourceIds": [
+              "editorial-01bc305d67e1be"
+            ]
+          },
+          {
+            "text": "CPSC's crib standards history explains the stronger requirements effective in June 2011, including the end of traditional drop-side crib sales. A fixed side alone does not establish compliance with every requirement. Ask the manufacturer about an uncertain date or model instead of interpreting an old catalog photograph yourself. Do not turn an old drop-side crib into a fixed-side crib with household hardware.",
+            "sourceIds": [
+              "editorial-34675dd6c49a1b"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Match every part to the exact manual",
+        "body": [
+          {
+            "text": "Download the manual from the manufacturer's own site or request it directly using the label information. Print the hardware list or keep it open during the inspection. Count the required screws, brackets, supports, and other specified pieces. A bag containing approximately the right number of fasteners is not a parts inventory. Different lengths and fittings may matter even when two screws look similar at a glance.",
+            "sourceIds": []
+          },
+          {
+            "text": "Ask whether the crib has ever been repaired, refinished, modified, or stored in a damp location. Answers can help you decide where to look more closely, but they do not replace an examination. Decline a crib with a glued joint, drilled replacement hole, makeshift support, or unidentified hardware. If the manufacturer offers an authorized replacement, confirm the part number and applicability before making a purchase decision; availability should not be presumed.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Inspect the actual crib before accepting it",
+        "body": [
+          {
+            "text": "Arrange enough time and light to examine the crib without a baby in it. Compare the model label with your saved photograph, then look at each joint and the mattress-support attachments. Check for cracks, missing slats, splintering, loose connections, damaged threads, and distortion. Do not load the crib with an adult, bounce on it, or invent a stress test. Follow the inspection and assembly directions supplied for that model.",
+            "sourceIds": []
+          },
+          {
+            "text": "If the seller disassembles it for transport, photograph the original arrangement and organize the hardware by the manual's labels. A photograph helps you retain context; it does not override written assembly instructions. Recheck the complete inventory after transport. Avoid accepting a damaged crib on the promise that a missing piece is probably somewhere in the seller's garage. The decision you can support is based on what is actually available.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Separate mattress fit from the crib purchase",
+        "body": [
+          {
+            "text": "Treat an included mattress as a separate item needing review. Find the crib manufacturer's required dimensions and thickness limits, then confirm the mattress's own identity and condition. Do not use folded bedding, foam strips, or another mattress to fill a gap. The fit has to come from compatible components assembled as directed. If the crib and mattress information conflict, pause and ask the manufacturer before using the combination.",
+            "sourceIds": []
+          },
+          {
+            "text": "Keep the sleep surface simple. CPSC safe-sleep guidance recommends an appropriate sleep product meeting federal requirements, a fitted sheet without soft objects, and placing the infant on their back. Decorative bumpers and listing accessories are not evidence that the pictured setup is appropriate. Stage your actual sleep space from current guidance and the product instructions, rather than copying the seller's photograph.",
+            "sourceIds": [
+              "editorial-8bcba0bcb86eea"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Make the handoff record useful",
+        "body": [
+          {
+            "text": "Create one folder containing the label photograph, exact manual, dated recall search, purchase or transfer information, and any manufacturer correspondence. Write down unresolved questions in plain language. For example: “Seller supplied six support bolts; manual lists eight; manufacturer confirmation pending.” That tells another caregiver why the crib must remain unused. “Looks fine” provides no comparable record.",
+            "sourceIds": []
+          },
+          {
+            "text": "Before the first use, have the adult responsible for assembly review the completed setup against the manual from the beginning. Confirm the specified mattress-support setting and the child's applicable developmental or size limits. Revisit those limits as the child grows. Keep packaging straps, spare hardware, tools, and loose instructions out of the sleep space and out of children's reach after assembly.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "A practical decision example",
+        "body": [
+          {
+            "text": "Imagine two listings at the same price. One has an identifiable recent model, complete manual, clear photographs, and an agreed inspection time. The other has a missing label and replacement bolts that the seller says are stronger. Investigate the first listing further and decline the second. This is an illustration of evidence-based screening, not a claim that the first crib is safe or that every newer crib is suitable.",
+            "sourceIds": []
+          },
+          {
+            "text": "Your next action is to request the label and manual before spending time on transportation. For the recall-search process, use our recall-check guide as a starting workflow, selecting the crib's actual category and model. Browse the family safety resources for related household checks.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "FAQs",
+        "body": [
+          {
+            "text": "Is a crib from a relative automatically a better choice?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Knowing the owner can make the history easier to discuss, but it does not eliminate missing parts, recalls, wear, or changes in product requirements. Apply the same identification and inspection checklist.",
+            "sourceIds": []
+          },
+          {
+            "text": "Can I buy hardware at a home-improvement store?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Do not substitute hardware based on appearance. Request the exact manufacturer-authorized parts for the model. If the needed parts cannot be verified or obtained, decline the crib.",
+            "sourceIds": []
+          },
+          {
+            "text": "Does no recall mean the crib passes?.",
+            "sourceIds": []
+          },
+          {
+            "text": "No. Recall checking answers only one question. Identity, condition, complete parts, correct assembly, mattress compatibility, and appropriate use still need review.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Educational disclaimer",
+        "body": [
+          {
+            "text": "This guide does not certify a crib or guarantee safety. Follow current CPSC notices, the exact manufacturer instructions, and your pediatric clinician's guidance. Keep damaged, recalled, modified, or uncertain equipment out of use. If an infant needs urgent medical help, contact emergency services rather than continuing a product checklist.",
+            "sourceIds": []
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "At a glance",
+      "columns": [
+        "Evidence to request",
+        "What it helps establish",
+        "Decision when unavailable"
+      ],
+      "rows": [
+        [
+          "Manufacturer, model, and date label",
+          "Which instructions and notices apply",
+          "Decline an unidentified crib"
+        ],
+        [
+          "Exact assembly manual",
+          "Required hardware and mattress specification",
+          "Ask manufacturer; do not guess"
+        ],
+        [
+          "Recall search and any remedy record",
+          "Whether an official action affects this model",
+          "Keep out of use until resolved"
+        ],
+        [
+          "Close photographs of joints and supports",
+          "Whether visible damage warrants rejection",
+          "Inspect in person before accepting"
+        ],
+        [
+          "Complete parts inventory",
+          "Whether assembly matches the original design",
+          "Reject substitute or missing parts"
+        ]
+      ]
+    },
+    "sourceIds": [
+      "editorial-01bc305d67e1be",
+      "editorial-34675dd6c49a1b",
+      "editorial-8bcba0bcb86eea"
+    ],
+    "takeaway": "Decline a secondhand crib when you cannot identify its model, obtain its exact instructions, or establish that all original required parts are present. A low price, a family history of use, and a seller's assurance cannot resolve those gaps. Complete the checks before agreeing to collect it, and keep another appropriate infant sleep space available while questions remain unanswered."
   }
 ];
