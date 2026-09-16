@@ -9147,5 +9147,224 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-8bcba0bcb86eea"
     ],
     "takeaway": "Decline a secondhand crib when you cannot identify its model, obtain its exact instructions, or establish that all original required parts are present. A low price, a family history of use, and a seller's assurance cannot resolve those gaps. Complete the checks before agreeing to collect it, and keep another appropriate infant sleep space available while questions remain unanswered."
+  },
+  {
+    "title": "Toddler Climbing Changes the Childproofing Plan",
+    "seoTitle": "Toddler Climbing Changes the Childproofing Plan",
+    "slug": "toddler-climbing-changes-the-childproofing-plan",
+    "publishDate": "2026-09-16",
+    "publishAt": "2026-09-16T09:00:00-04:00",
+    "category": "Toy Safety",
+    "image": "/images/toddler-climbing-changes-the-childproofing-plan-original.svg",
+    "imageAlt": "Original room planning sketch with a movable chair, a dresser, and a window marked as separate inspection points; it does not depict a child climbing or an anchor installation.",
+    "excerpt": "Reassess furniture, windows, barriers, and sleep equipment when a toddler starts climbing, with practical room checks and CPSC sources.",
+    "keywords": [
+      "childproofing for climbing toddlers"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "When a toddler begins climbing, reassess the routes they can create to windows, furniture, cords, and stored hazards. Start with furniture anchoring and window access today; moving a tempting object higher is not enough if drawers or chairs provide a way to reach it.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "TL;DR",
+        "body": [
+          {
+            "text": "A climbing child changes the meaning of “out of reach.” Look at the room as a connected route: movable chair, low shelf, dresser, window. Remove access aids, secure furniture according to its instructions, and review gates and sleep equipment against their manufacturer limits. Keep supervision and physical safeguards working together. No device makes a room risk-free, and a quiet child can still be exploring.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "At a glance",
+        "body": [
+          {
+            "text": "The original room-route illustration highlights a movable chair, a dresser, and a window as separate inspection points. It is a planning sketch, not an installation drawing. Use this table to turn the sketch into specific household work rather than a general reminder to “be careful.”",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Inspect routes, not just objects",
+        "body": [
+          {
+            "text": "Walk through the rooms where your child spends time, including the room used while an adult cooks or works. From a low viewpoint, identify surfaces that could be linked together. A toy chest next to a bookcase matters differently from the same chest in an open area. A lightweight dining chair can change the route even when it was nowhere near the window during yesterday’s inspection.",
+            "sourceIds": []
+          },
+          {
+            "text": "Make a short room map with three kinds of marks: things that move, things that can tip, and places where a fall would be serious. This is an organizing method for your household, not a validated safety scoring system. Do not ask your child to demonstrate a climb for the map. Use what you have already observed and ordinary inspection without staging a risky test.",
+            "sourceIds": []
+          },
+          {
+            "text": "Prioritize access to windows, stairs, cooking surfaces, medications, cleaning products, and unstable furnishings. If a hazard cannot be addressed immediately, prevent the child from accessing that area with an appropriate arrangement and active adult oversight while you obtain help. “We will install it this weekend” does not change the exposure between now and then.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Check the anchor installation itself",
+        "body": [
+          {
+            "text": "The CPSC childproofing guide identifies furniture and appliance tip-overs as a household hazard. Follow the furniture and restraint manufacturers’ instructions for the particular wall, hardware, and attachment points. A strap lying behind a dresser is not evidence that it is installed correctly.",
+            "sourceIds": [
+              "editorial-71aeb0bf1cd395"
+            ]
+          },
+          {
+            "text": "Find the model label and manual before buying replacement hardware. If you cannot identify the wall structure or suitable fastening method, ask a qualified installer. Do not improvise an anchor by attaching it to trim or another unstable piece of furniture. Do not treat adhesive products, drawer locks, or the apparent weight of the cabinet as interchangeable with the specified anchoring arrangement.",
+            "sourceIds": []
+          },
+          {
+            "text": "The CPSC’s Anchor It campaign provides further prevention resources. Keep attractive items away from the top of furniture so the room does not invite retrieval by climbing. Still address the anchoring: removing a toy is a useful change to the environment, but it does not establish the stability of the furniture itself.",
+            "sourceIds": [
+              "editorial-3194de4412b004"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Revisit windows and cords together",
+        "body": [
+          {
+            "text": "A window that looked inaccessible can become reachable after a chair is moved. Inspect the approach as well as the window. The CPSC notes that insect screens do not prevent children from falling through windows. Select appropriate guards or opening controls with attention to the product instructions, the specific opening, and emergency escape requirements. Ask a qualified installer or local authority when those requirements are unclear.",
+            "sourceIds": []
+          },
+          {
+            "text": "Corded window coverings deserve a separate check. Move furniture away from cords and consider cordless coverings appropriate for the home. Avoid making a temporary arrangement that creates a new loop or leaves a dangling cord within reach. Look behind curtains and beside the bed, where cords may be less obvious to a standing adult than to a child playing nearby.",
+            "sourceIds": []
+          },
+          {
+            "text": "In a rental, document the hazard and contact the property manager about an appropriate installation promptly. Do not assume a lease restriction establishes that a temporary improvised solution is adequate. Explain which room and product are involved, request a practical repair arrangement, and keep access controlled while the question is resolved.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Review barriers and sleep equipment by model",
+        "body": [
+          {
+            "text": "Collect the manuals for gates, play yards, high chairs, and the crib. Read the age, height, weight, developmental, and climbing-related limits that apply to each item. A child can reach a developmental limit before a birthday or before the product looks small. If the manual cannot be found, use the manufacturer’s support channel with the exact model rather than borrowing instructions from a similar item.",
+            "sourceIds": []
+          },
+          {
+            "text": "Do not stack barriers or add homemade extensions to keep a child contained. Such changes can introduce entrapment or climbing hazards that the original product instructions do not address. When a child attempts to climb out of sleep equipment, seek the manufacturer’s guidance and discuss the next sleep arrangement with the child’s clinician. This article does not set a universal transition age or authorize modifying a crib.",
+            "sourceIds": []
+          },
+          {
+            "text": "Check the CPSC recall database using model identifiers, particularly for secondhand items. Keep a record of the search date and any required remedy. A missing result is not a safety certification, and the absence of a visible defect is not a substitute for following an applicable recall instruction.",
+            "sourceIds": [
+              "editorial-01bc305d67e1be"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Give every caregiver the same room plan",
+        "body": [
+          {
+            "text": "An effective household change can disappear when a visiting relative puts the chair back beside the window. Explain the purpose of the layout to other adults and older children. Use concrete language: “This chair stays in the dining area because it creates a route to the sill.” That is easier to maintain than an unexplained prohibition on moving furniture.",
+            "sourceIds": []
+          },
+          {
+            "text": "Repeat the walk-through in places your child visits. Ask about bedrooms, television stands, and the area used for coats or bags. Medicines in a visitor’s bag can create an accessible hazard even in a room whose cabinets have already been secured. Make the discussion practical and respectful, with specific changes to make before the visit.",
+            "sourceIds": []
+          },
+          {
+            "text": "Offer age-appropriate opportunities for movement under suitable supervision, without treating a climbing toy as a solution to household hazards. A child who enjoys a designated play activity may still explore furniture. Continue to reassess after rearranging a room, acquiring new furniture, or observing a new capability.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Questions parents ask",
+        "body": [
+          {
+            "text": "Is watching my child enough?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Supervision matters, but household safeguards should not depend on an adult noticing every movement in time. Address the physical hazard and the access route as well as planning supervision. If you cannot maintain the needed arrangement, change where the child spends time until the area can be addressed.",
+            "sourceIds": []
+          },
+          {
+            "text": "Should I lock every drawer to stop climbing?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Use appropriate locks where hazardous contents require them, following their instructions. Do not assume a drawer lock provides the tip-over protection specified by the furniture manufacturer. Inspect anchoring separately and avoid creating new footholds with aftermarket accessories.",
+            "sourceIds": []
+          },
+          {
+            "text": "What should I do first this afternoon?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Choose the room your child uses most and inspect the route to its windows and tall furniture. Remove movable access aids, locate the relevant manuals, and assign any installation work to a named adult. Continue with the SaferKids resource library for related room checks.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Educational disclaimer",
+        "body": [
+          {
+            "text": "This guide supports household planning and does not certify a product, installation, or room as safe. Follow current product instructions, recall remedies, local requirements, and individualized pediatric advice. Seek emergency help for a serious fall, suspected poisoning, breathing difficulty, or another urgent injury; do not use a home checklist to assess an emergency.",
+            "sourceIds": []
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "At a glance",
+      "columns": [
+        "New observation",
+        "What it changes",
+        "Next action",
+        "Evidence to retain"
+      ],
+      "rows": [
+        [
+          "Child moves a chair",
+          "Previously distant surfaces become reachable",
+          "Relocate the chair and reassess the full room",
+          "Updated room photo"
+        ],
+        [
+          "Child pulls on drawers",
+          "Furniture can become a climbing route",
+          "Check manufacturer anchoring instructions and installation",
+          "Model and anchor instructions"
+        ],
+        [
+          "Child reaches a window",
+          "Screen alone does not address fall risk",
+          "Evaluate appropriate window protection and emergency escape",
+          "Product instructions and room plan"
+        ],
+        [
+          "Child attempts to climb a gate",
+          "The barrier may no longer suit the child",
+          "Check stated limits and arrange an alternative",
+          "Exact model guidance"
+        ],
+        [
+          "Child climbs out of a crib",
+          "The sleep setup needs prompt reassessment",
+          "Consult manufacturer limits and pediatric guidance",
+          "Manual and care-team advice"
+        ]
+      ]
+    },
+    "sourceIds": [
+      "editorial-71aeb0bf1cd395",
+      "editorial-3194de4412b004",
+      "editorial-01bc305d67e1be"
+    ],
+    "takeaway": "When a toddler begins climbing, reassess the routes they can create to windows, furniture, cords, and stored hazards. Start with furniture anchoring and window access today; moving a tempting object higher is not enough if drawers or chairs provide a way to reach it."
   }
 ];

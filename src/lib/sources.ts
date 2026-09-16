@@ -1,4 +1,6 @@
 export const articleSources = [
+  {"id": "editorial-3194de4412b004", "title": "Anchor It campaign", "organization": "www.anchorit.gov", "url": "https://www.anchorit.gov/"},
+  {"id": "editorial-71aeb0bf1cd395", "title": "CPSC childproofing guide", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/safety-education/safety-guides/kids-and-babies/Childproofing-Your-Home"},
   {"id": "editorial-8bcba0bcb86eea", "title": "CPSC safe-sleep guidance", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/SafeSleep"},
   {"id": "editorial-34675dd6c49a1b", "title": "crib standards history", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Regulations-Laws--Standards/Voluntary-Standards/Cribs"},
   {"id": "editorial-b66a4ddc9ba5ea", "title": "CPSC product registration guidance", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/FAQ?p=3019&tid%5B3029%5D=3029"},
