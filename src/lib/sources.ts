@@ -1,4 +1,6 @@
 export const articleSources = [
+  {"id": "editorial-2cabcde95061a5", "title": "HealthyChildren product-safety guidance", "organization": "www.healthychildren.org", "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/default.aspx"},
+  {"id": "editorial-cbba26af1c5785", "title": "CPSC toy-safety guidance", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/Safety-Education/Safety-Guides/Toys"},
   {"id": "editorial-3194de4412b004", "title": "Anchor It campaign", "organization": "www.anchorit.gov", "url": "https://www.anchorit.gov/"},
   {"id": "editorial-71aeb0bf1cd395", "title": "CPSC childproofing guide", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/safety-education/safety-guides/kids-and-babies/Childproofing-Your-Home"},
   {"id": "editorial-8bcba0bcb86eea", "title": "CPSC safe-sleep guidance", "organization": "www.cpsc.gov", "url": "https://www.cpsc.gov/SafeSleep"},
