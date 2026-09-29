@@ -7,7 +7,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-27",
     "publishAt": "2026-07-27T13:55:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/toy-inspection-checklist-for-broken-parts-and-batteries.svg",
     "excerpt": "A practical guide to toy inspection checklist for broken parts and batteries, with clear decisions, cautions, and next steps.",
     "keywords": [
       "toy inspection checklist for broken parts and batteries"
@@ -605,7 +605,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-28",
     "publishAt": "2026-07-28T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/understanding-toy-safety-certifications.svg",
     "excerpt": "Understanding Toy Safety Certifications: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist f...",
     "keywords": [
       "understanding toy safety certifications"
@@ -1180,7 +1180,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-29",
     "publishAt": "2026-07-29T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/astm-vs-cpsc-toy-safety-standards.svg",
     "excerpt": "ASTM vs CPSC Toy Safety Standards: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for chi...",
     "keywords": [
       "astm vs cpsc toy safety standards"
@@ -1755,7 +1755,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-30",
     "publishAt": "2026-07-30T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/age-appropriate-toy-safety-labels-decoded.svg",
     "excerpt": "Age-Appropriate Toy Safety Labels Decoded: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
     "keywords": [
       "age-appropriate toy safety labels decoded"
@@ -2330,7 +2330,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-07-31",
     "publishAt": "2026-07-31T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/common-toy-safety-mistakes-parents-make.svg",
     "excerpt": "Common Toy Safety Mistakes Parents Make: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist f...",
     "keywords": [
       "common toy safety mistakes parents make"
@@ -2905,7 +2905,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-03",
     "publishAt": "2026-08-03T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/how-to-check-a-toy-recall-list-before-buying.svg",
     "excerpt": "How to Check a Toy Recall List Before Buying: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checkl...",
     "keywords": [
       "how to check a toy recall list before buying"
@@ -3480,7 +3480,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-04",
     "publishAt": "2026-08-04T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/safe-toy-materials-plastic-wood-and-fabric-guide.svg",
     "excerpt": "Safe Toy Materials: Plastic, Wood, and Fabric Guide: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable...",
     "keywords": [
       "safe toy materials: plastic, wood, and fabric guide"
@@ -4055,7 +4055,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-05",
     "publishAt": "2026-08-05T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/what-is-the-20-toy-rule-and-does-it-work.svg",
     "excerpt": "What Is the 20 Toy Rule and Does It Work?: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
     "keywords": [
       "what is the 20 toy rule and does it work?"
@@ -4630,7 +4630,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-06",
     "publishAt": "2026-08-06T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/how-to-implement-the-20-toy-rule-step-by-step.svg",
     "excerpt": "How to Implement the 20 Toy Rule Step by Step: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable check...",
     "keywords": [
       "how to implement the 20 toy rule step by step"
@@ -5205,7 +5205,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-07",
     "publishAt": "2026-08-07T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/benefits-of-fewer-toys-for-child-development.svg",
     "excerpt": "Benefits of Fewer Toys for Child Development: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checkl...",
     "keywords": [
       "benefits of fewer toys for child development"
@@ -5780,7 +5780,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-08-10",
     "publishAt": "2026-08-10T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/20-toy-rule-vs-montessori-toy-philosophy.svg",
     "excerpt": "20 Toy Rule vs Montessori Toy Philosophy: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
     "keywords": [
       "20 toy rule vs montessori toy philosophy"
@@ -6355,7 +6355,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-09-07",
     "publishAt": "2026-09-07T09:00:00-04:00",
     "category": "Baby Proofing",
-    "image": "/images/button-battery-safety-audit.svg",
+    "image": "/images/button-battery-safety-home-audit.svg",
     "excerpt": "Find hidden button batteries, test compartment closures, store spares and used cells, and build a repeatable monthly home audit.",
     "keywords": [
       "button battery safety",
@@ -8512,7 +8512,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-09-11",
     "publishAt": "2026-09-11T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "/images/toy-magnet-safety-a-parent-s-inspection-checklist-original.svg",
+    "image": "/images/toy-magnet-safety-a-parent-s-inspection-checklist.svg",
     "imageAlt": "Magnetic toy pieces beside a magnified cracked casing, secured storage box, and an urgent-care warning.",
     "excerpt": "Inspect magnetic toys, check recalls, secure damaged pieces, and know when a missing magnet requires immediate medical attention.",
     "keywords": [
@@ -8723,7 +8723,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-09-14",
     "publishAt": "2026-09-14T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "/images/how-to-register-baby-gear-for-recall-alerts-original.svg",
+    "image": "/images/how-to-register-baby-gear-for-recall-alerts.svg",
     "imageAlt": "Original illustration of a baby-gear identification tag, registration envelope, and saved confirmation, connected in reading order.",
     "excerpt": "How to Register Baby Gear for Recall Alerts: a practical, researched guide with decisions, implementation steps, a comparison table, an original visual, sources",
     "keywords": [
@@ -8945,7 +8945,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-09-15",
     "publishAt": "2026-09-15T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "/images/secondhand-crib-checklist-labels-parts-and-recalls-original.svg",
+    "image": "/images/secondhand-crib-checklist-labels-parts-and-recalls.svg",
     "imageAlt": "Original unbranded crib illustration with a magnified model label and separate parts manual; schematic only, not an assembly or safety certification.",
     "excerpt": "Check a secondhand crib’s model, manual, parts, recall history, and mattress fit before accepting it. Know when to decline an uncertain crib.",
     "keywords": [
@@ -9155,7 +9155,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishDate": "2026-09-16",
     "publishAt": "2026-09-16T09:00:00-04:00",
     "category": "Toy Safety",
-    "image": "/images/toddler-climbing-changes-the-childproofing-plan-original.svg",
+    "image": "/images/toddler-climbing-changes-the-childproofing-plan.svg",
     "imageAlt": "Original room planning sketch with a movable chair, a dresser, and a window marked as separate inspection points; it does not depict a child climbing or an anchor installation.",
     "excerpt": "Reassess furniture, windows, barriers, and sleep equipment when a toddler starts climbing, with practical room checks and CPSC sources.",
     "keywords": [
