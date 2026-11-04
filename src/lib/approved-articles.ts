@@ -17610,8 +17610,8 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "Most toy recall check: search the model before the next play s... failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   },
   {
-    "title": "Gift Safety Check: Read Labels and Secure Batteries Befor...",
-    "seoTitle": "Gift Safety Check: Read Labels and Secure Batteries Befor...",
+    "title": "Gift Safety Check Read Labels And Secure Batteries Before Wrapping",
+    "seoTitle": "Gift Safety Check Read Labels And Secure Batteries Before Wrapping",
     "slug": "gift-safety-check-read-labels-and-secure-batteries-before-wrapping",
     "publishDate": "2026-11-04",
     "publishAt": "2026-11-04T09:00:00-05:00",
@@ -17627,11 +17627,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Start here",
         "body": [
           {
-            "text": "A durable gift safety check: read labels and secure batteries befor... workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision.",
+            "text": "Treat gift safety check: read labels and secure batteries befor... as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision.",
             "sourceIds": []
           },
           {
-            "text": "Use this guide when a concrete gift safety check: read labels and secure batteries befor... decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "text": "Use this guide when a concrete gift safety check read labels and secure batteries before wrapping decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
             "sourceIds": []
           }
         ]
@@ -17683,7 +17683,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Make “identify the exact product and intended use” a pass/fail gate. State the acceptable range, then compare it with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Do not average a failed constraint against convenience. The right response to a conflict is to pause gift safety check: read labels and secure batteries befor..., resolve the source of truth, and document the decision.",
+            "text": "Before performing this step, say the plan aloud: identify the exact product and intended use. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because gift safety check: read labels and secure batteries befor... can drift when people improvise without noticing that the original conditions changed.",
             "sourceIds": []
           },
           {
@@ -17695,7 +17695,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Use a two-person check when the consequence is meaningful. One person should check current recalls and official guidance; the other should compare the action with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
+            "text": "Treat this as the handoff checkpoint: check current recalls and official guidance. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the gift safety check: read labels and secure batteries befor... instruction is not finished.",
             "sourceIds": []
           },
           {
@@ -17707,7 +17707,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "For this checkpoint, inspect labels, parts, and condition. Observe the real condition rather than the ideal one. A practical record includes product identity, age label, recall date, inspection result, supervision need, storage location, and next check. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "text": "Treat this as the handoff checkpoint: inspect labels, parts, and condition. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the gift safety check: read labels and secure batteries befor... instruction is not finished.",
             "sourceIds": []
           },
           {
@@ -17719,7 +17719,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Before performing this step, say the plan aloud: follow the manufacturer instructions. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because gift safety check: read labels and secure batteries befor... can drift when people improvise without noticing that the original conditions changed.",
+            "text": "Ask what would make this action wrong in the present setting, then follow the manufacturer instructions. Compare the answer with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
             "sourceIds": []
           },
           {
@@ -17731,7 +17731,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Treat this as the handoff checkpoint: test only without exposing a child to uncertainty. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the gift safety check: read labels and secure batteries befor... instruction is not finished.",
+            "text": "Use a two-person check when the consequence is meaningful. One person should test only without exposing a child to uncertainty; the other should compare the action with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
             "sourceIds": []
           },
           {
@@ -17743,7 +17743,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Before performing this step, say the plan aloud: stop use and escalate damaged, recalled, or unclear items. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because gift safety check: read labels and secure batteries befor... can drift when people improvise without noticing that the original conditions changed.",
+            "text": "Assign this action explicitly to the supervising adult: stop use and escalate damaged, recalled, or unclear items. Give that person authority to stop the sequence when a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate appears. Clear ownership prevents a common failure in gift safety check: read labels and secure batteries befor...: everyone sees the concern, but each person assumes someone else will make the decision.",
             "sourceIds": []
           },
           {
@@ -17924,7 +17924,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-cbba26af1c5785",
       "editorial-2cabcde95061a5"
     ],
-    "takeaway": "A durable gift safety check: read labels and secure batteries befor... workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
+    "takeaway": "Treat gift safety check: read labels and secure batteries befor... as a field procedure rather than a collection of tips. The procedure should still work when the day is busy, the easy option is unavailable, or another person takes over. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   },
   {
     "title": "Toy Gift Check: Confirm Age Guidance Before Opening",
@@ -18561,8 +18561,8 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "toy sharing check: keep small parts and age guidance visible often looks like a single task. In practice, the outcome depends on a chain of small choices, and the earliest unchecked choice usually creates the most expensive correction. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   },
   {
-    "title": "Toy Travel Check: Keep Age Guidance and Batteries With th...",
-    "seoTitle": "Toy Travel Check: Keep Age Guidance and Batteries With th...",
+    "title": "Toy Travel Check Keep Age Guidance And Batteries With The Item",
+    "seoTitle": "Toy Travel Check Keep Age Guidance And Batteries With The Item",
     "slug": "toy-travel-check-keep-age-guidance-and-batteries-with-the-item",
     "publishDate": "2026-11-09",
     "publishAt": "2026-11-09T09:00:00-05:00",
@@ -18578,11 +18578,11 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Start here",
         "body": [
           {
-            "text": "The difficult part of toy travel check: keep age guidance and batteries with th... is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision.",
+            "text": "Most toy travel check: keep age guidance and batteries with th... failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision.",
             "sourceIds": []
           },
           {
-            "text": "Use this guide when a concrete toy travel check: keep age guidance and batteries with th... decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "text": "Use this guide when a concrete toy travel check keep age guidance and batteries with the item decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
             "sourceIds": []
           }
         ]
@@ -18617,7 +18617,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Prepare with evidence that can change the decision",
         "body": [
           {
-            "text": "Walk through the actual setting and gather the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Do not substitute a product page, generic summary, or remembered dimension for something you can observe directly. Photograph or note the condition that is easiest to misremember.",
+            "text": "Build the evidence packet around the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Keep it small enough to use during the work. Label each source with its date and scope, and separate a controlling requirement from a preference.",
             "sourceIds": []
           },
           {
@@ -18634,7 +18634,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Start by turning “identify the exact product and intended use” into a fact someone can verify. Use the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Write the source and date beside the conclusion; otherwise the team cannot distinguish evidence from memory. For toy travel check: keep age guidance and batteries with th..., this checkpoint is complete only when the next operator knows what is confirmed and what remains unknown.",
+            "text": "Ask what would make this action wrong in the present setting, then identify the exact product and intended use. Compare the answer with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
             "sourceIds": []
           },
           {
@@ -18646,7 +18646,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Use a two-person check when the consequence is meaningful. One person should check current recalls and official guidance; the other should compare the action with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
+            "text": "Practice this step on a closely supervised first-use period after all checks pass: check current recalls and official guidance. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
             "sourceIds": []
           },
           {
@@ -18658,7 +18658,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Close the loop after you inspect labels, parts, and condition. Record the actual outcome, including friction and near misses, rather than only marking the task complete. Use that result to revise the next toy travel check: keep age guidance and batteries with th... attempt while the details are still fresh.",
+            "text": "Practice this step on a closely supervised first-use period after all checks pass: inspect labels, parts, and condition. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. A small test is useful only when it represents the difficult condition that the full workflow must handle.",
             "sourceIds": []
           },
           {
@@ -18682,7 +18682,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "For this checkpoint, test only without exposing a child to uncertainty. Observe the real condition rather than the ideal one. A practical record includes product identity, age label, recall date, inspection result, supervision need, storage location, and next check. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "text": "Ask what would make this action wrong in the present setting, then test only without exposing a child to uncertainty. Compare the answer with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. This counter-check is especially valuable when a familiar method is being reused with a different person, product, location, or workload.",
             "sourceIds": []
           },
           {
@@ -18694,7 +18694,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
             "sourceIds": []
           },
           {
-            "text": "Before performing this step, say the plan aloud: stop use and escalate damaged, recalled, or unclear items. Name the expected change, the maximum exposure or effort, and the stop signal. This short briefing matters because toy travel check: keep age guidance and batteries with th... can drift when people improvise without noticing that the original conditions changed.",
+            "text": "Use a two-person check when the consequence is meaningful. One person should stop use and escalate damaged, recalled, or unclear items; the other should compare the action with the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. The second check is not bureaucracy—it catches a mismatch while the work is still reversible.",
             "sourceIds": []
           },
           {
@@ -18707,7 +18707,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Run one representative small test",
         "body": [
           {
-            "text": "The first implementation should be a closely supervised first-use period after all checks pass. Make it realistic enough to expose the hard condition but limited enough to reverse. Record product identity, age label, recall date, inspection result, supervision need, storage location, and next check so the result can guide the next attempt.",
+            "text": "Use a closely supervised first-use period after all checks pass and change only one meaningful variable. Define the expected result and the stopping signal before beginning. If a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate appears, end the test and return to the last acceptable condition.",
             "sourceIds": []
           },
           {
@@ -18758,7 +18758,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
         "heading": "Review the result and make it reusable",
         "body": [
           {
-            "text": "At the review, ask three questions: What changed? What remained uncertain? Did a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate occur or nearly occur? Assign one owner and date to every follow-up.",
+            "text": "Review product identity, age label, recall date, inspection result, supervision need, storage location, and next check. Compare the observation with the result statement, not with the effort invested. Decide to adopt, adjust, obtain qualified help, or stop.",
             "sourceIds": []
           },
           {
@@ -18875,7 +18875,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-cbba26af1c5785",
       "editorial-2cabcde95061a5"
     ],
-    "takeaway": "The difficult part of toy travel check: keep age guidance and batteries with th... is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
+    "takeaway": "Most toy travel check: keep age guidance and batteries with th... failures begin before the visible work starts: the wrong constraint is assumed, the real environment is not measured, or nobody defines what would trigger a stop. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   },
   {
     "title": "Toy Battery Travel Check: Keep Loose Cells Out of Reach",
@@ -19196,7 +19196,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Toy Battery Storage Check: Separate Loose Cells Before Travel",
-    "seoTitle": "Toy Battery Storage Check: Separate Loose Cells Before Tr...",
+    "seoTitle": "Toy Battery Storage Check: Separate Loose Cells Before Travel",
     "slug": "toy-battery-storage-check-separate-loose-cells-before-travel",
     "publishDate": "2026-11-11",
     "publishAt": "2026-11-11T09:00:00-05:00",
@@ -20147,7 +20147,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Toy Recall Follow-Up: Document the Model and Keep the Child Away From the Product",
-    "seoTitle": "Toy Recall Follow-Up: Document the Model and Keep the Chi...",
+    "seoTitle": "Toy Recall Follow-Up: Document the Model and Keep the Child Away From the Product",
     "slug": "toy-recall-follow-up-document-the-model-and-keep-the-child-away-from-the-product",
     "publishDate": "2026-11-16",
     "publishAt": "2026-11-16T09:00:00-05:00",
@@ -20464,7 +20464,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Toy Storage Check: Keep Age Guidance and Small Parts Together",
-    "seoTitle": "Toy Storage Check: Keep Age Guidance and Small Parts Toge...",
+    "seoTitle": "Toy Storage Check: Keep Age Guidance and Small Parts Together",
     "slug": "toy-storage-check-keep-age-guidance-and-small-parts-together",
     "publishDate": "2026-11-17",
     "publishAt": "2026-11-17T09:00:00-05:00",
