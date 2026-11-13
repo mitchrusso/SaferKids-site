@@ -22680,5 +22680,322 @@ export const approvedResourceArticles: ResourceArticle[] = [
       "editorial-2cabcde95061a5"
     ],
     "takeaway": "A durable toy label review: compare age guidance before a new activity (nov 2026) workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
+  },
+  {
+    "title": "Toy Storage Check: Keep Small Parts and Age Guidance Together",
+    "seoTitle": "Toy Storage Check: Keep Small Parts and Age Guidance",
+    "slug": "toy-storage-check-keep-small-parts-and-age-guidance-together",
+    "publishDate": "2026-11-27",
+    "publishAt": "2026-11-27T09:00:00-05:00",
+    "category": "Toy Safety",
+    "image": "/images/toy-storage-check-keep-small-parts-and-age-guidance-together.svg",
+    "imageAlt": "Toy Storage Check: Keep Small Parts and Age Guidance Together topic field map",
+    "excerpt": "Use a practical six-step toy storage small parts safety workflow with evidence checks, cautions, and a reusable review checklist.",
+    "keywords": [
+      "toy storage small parts safety"
+    ],
+    "sections": [
+      {
+        "heading": "Start here",
+        "body": [
+          {
+            "text": "The difficult part of toy label review: compare age guidance before a new activity (nov 2026) is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision.",
+            "sourceIds": []
+          },
+          {
+            "text": "Use this guide when a concrete toy storage check: keep small parts and age guidance together decision is already on the table. It focuses on the sequence, evidence, and recovery path—not on claiming that one answer fits every material, person, location, organization, or appetite.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "At a glance: six checkpoints for toy label review: compare age guidance before a new activity (nov 2026)",
+        "body": [
+          {
+            "text": "1. Identify the exact product and intended use. 2. Check current recalls and official guidance. 3. Inspect labels, parts, and condition. 4. Follow the manufacturer instructions. 5. Test only without exposing a child to uncertainty. 6. Stop use and escalate damaged, recalled, or unclear items.",
+            "sourceIds": []
+          },
+          {
+            "text": "Read the list once before acting. Mark the checkpoint with the weakest evidence. That is where the plan needs attention; later refinement cannot rescue a decision built on an unresolved early constraint.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Define the result and the stop rule",
+        "body": [
+          {
+            "text": "Describe the result in observable terms. Include the person, object, or business process affected; the real environment; the acceptable range; and the point at which the work must stop. For toy label review: compare age guidance before a new activity (nov 2026), an unacceptable outcome includes a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate.",
+            "sourceIds": []
+          },
+          {
+            "text": "Separate hard constraints from preferences. A hard constraint can disqualify the method even when it is faster or cheaper. Write assumptions as assumptions, attach an owner, and give high-consequence unknowns a deadline for resolution.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Prepare with evidence that can change the decision",
+        "body": [
+          {
+            "text": "Walk through the actual setting and gather the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities. Do not substitute a product page, generic summary, or remembered dimension for something you can observe directly. Photograph or note the condition that is easiest to misremember.",
+            "sourceIds": []
+          },
+          {
+            "text": "Set up the workspace and communication path before the demanding step. Identify the exact product and intended use; then confirm that check current recalls and official guidance. Make the stop authority explicit. The person who notices a problem should not need to negotiate permission while the exposure or failure is growing.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "The complete walkthrough",
+        "body": [
+          {
+            "text": "1. Identify the exact product and intended use.",
+            "sourceIds": []
+          },
+          {
+            "text": "Practice this step on a closely supervised first-use period after all checks pass: identify the exact product and intended use. Change one variable, keep the other conditions stable, and inspect the result before expanding the scope. Keep the trial representative of the hardest normal condition; an easy demonstration does not validate the full workflow.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “check current recalls and official guidance,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "2. Check current recalls and official guidance.",
+            "sourceIds": []
+          },
+          {
+            "text": "Document the starting condition before you check current recalls and official guidance. Without a baseline, the team may notice change but cannot judge whether it is acceptable. The baseline for toy label review: compare age guidance before a new activity (nov 2026) should be brief, observable, and saved with product identity, age label, recall date, inspection result, supervision need, storage location, and next check.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “inspect labels, parts, and condition,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "3. Inspect labels, parts, and condition.",
+            "sourceIds": []
+          },
+          {
+            "text": "Treat this as the handoff checkpoint: inspect labels, parts, and condition. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the toy label review: compare age guidance before a new activity (nov 2026) instruction is not finished.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “follow the manufacturer instructions,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "4. Follow the manufacturer instructions.",
+            "sourceIds": []
+          },
+          {
+            "text": "Document the starting condition before you follow the manufacturer instructions. Without a baseline, the team may notice change but cannot judge whether it is acceptable. The baseline for toy label review: compare age guidance before a new activity (nov 2026) should be brief, observable, and saved with product identity, age label, recall date, inspection result, supervision need, storage location, and next check.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “test only without exposing a child to uncertainty,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "5. Test only without exposing a child to uncertainty.",
+            "sourceIds": []
+          },
+          {
+            "text": "Treat this as the handoff checkpoint: test only without exposing a child to uncertainty. The person receiving the work should be able to state the result, the remaining risk, and the next review date. If the handoff requires hidden context, the toy label review: compare age guidance before a new activity (nov 2026) instruction is not finished.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “stop use and escalate damaged, recalled, or unclear items,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          },
+          {
+            "text": "6. Stop use and escalate damaged, recalled, or unclear items.",
+            "sourceIds": []
+          },
+          {
+            "text": "For this checkpoint, stop use and escalate damaged, recalled, or unclear items. Observe the real condition rather than the ideal one. A practical record includes product identity, age label, recall date, inspection result, supervision need, storage location, and next check. If one of those details is unavailable, note the consequence of guessing before continuing.",
+            "sourceIds": []
+          },
+          {
+            "text": "Gate check: before moving to “schedule the next inspection or review,” write one sentence describing what passed, what did not, and who owns the unresolved item.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Run one representative small test",
+        "body": [
+          {
+            "text": "The first implementation should be a closely supervised first-use period after all checks pass. Make it realistic enough to expose the hard condition but limited enough to reverse. Record product identity, age label, recall date, inspection result, supervision need, storage location, and next check so the result can guide the next attempt.",
+            "sourceIds": []
+          },
+          {
+            "text": "Keep the test honest. Do not add help, favorable conditions, or expert intervention that will be absent during normal use. If the difficult case cannot be tested responsibly, escalate it to the qualified person or authority who can evaluate it.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Five mistakes that weaken a toy label review: compare age guidance before a new activity (nov 2026) plan",
+        "body": [
+          {
+            "text": "- Choosing a tool, product, setting, contract form, or template before the toy label review: compare age guidance before a new activity (nov 2026) requirement is defined. - Testing only the easiest condition and assuming the result represents normal toy label review: compare age guidance before a new activity (nov 2026) use. - Changing several variables together, which hides the cause of success or failure. - Continuing after a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate because time or money has already been invested. - Finishing the visible task without recording product identity, age label, recall date, inspection result, supervision need, storage location, and next check.",
+            "sourceIds": []
+          },
+          {
+            "text": "When a mistake appears, stabilize first. Protect the person, material, rights, equipment, food, environment, or client experience involved. Return to the first checkpoint contradicted by the evidence, revise one variable, and create a new stop rule before trying again.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Safety, permission, and professional boundaries",
+        "body": [
+          {
+            "text": "Educational disclaimer: this guide cannot determine that any product or activity is absolutely safe and does not replace the current label, recall notice, manufacturer instructions, pediatric guidance, or direct adult supervision. Development varies. Remove damaged or uncertain items from use while you verify them, and seek urgent medical help when an ingestion, choking, poisoning, drowning, or other emergency is suspected.",
+            "sourceIds": []
+          },
+          {
+            "text": "Authoritative starting points:",
+            "sourceIds": []
+          },
+          {
+            "text": "- CPSC recalls database - CPSC toy-safety guidance - HealthyChildren product-safety guidance",
+            "sourceIds": [
+              "editorial-01bc305d67e1be",
+              "editorial-cbba26af1c5785",
+              "editorial-2cabcde95061a5"
+            ]
+          },
+          {
+            "text": "Confirm that a source applies to the exact model, jurisdiction, land manager, product category, transaction, clinical situation, or activity. Save the access date and pair general guidance with current manufacturer instructions or individualized professional advice when appropriate.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Review the result and make it reusable",
+        "body": [
+          {
+            "text": "At the review, ask three questions: What changed? What remained uncertain? Did a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate occur or nearly occur? Assign one owner and date to every follow-up.",
+            "sourceIds": []
+          },
+          {
+            "text": "Turn the final note into a short checklist for the next person. Include the six checkpoints, the approved range, a photograph or example where useful, the stop rule, and the escalation contact. A workflow is not delegated until another person can recognize both a good result and a reason to stop.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Your next 20 minutes",
+        "body": [
+          {
+            "text": "Write the desired result and the unacceptable outcome. Complete checkpoint one using a current source or direct observation. Then prepare a closely supervised first-use period after all checks pass. If the critical evidence is missing, use the time to send one precise question instead of improvising.",
+            "sourceIds": []
+          },
+          {
+            "text": "The goal of this short session is not to finish toy label review: compare age guidance before a new activity (nov 2026). It is to reach the first defensible action with the stop rule already in place.",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "Related practical guides",
+        "body": [
+          {
+            "text": "- toy recall check - toy inspection checklist - family safety resource library",
+            "sourceIds": []
+          }
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "body": [
+          {
+            "text": "What should be verified first?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Verify the fact that could disqualify the entire approach. In this workflow that usually means identify the exact product and intended use, followed by a check that you can check current recalls and official guidance under real conditions.",
+            "sourceIds": []
+          },
+          {
+            "text": "How detailed should the written plan be?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Detailed enough that another capable person can perform the next checkpoint and recognize a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate. For most situations, one page plus the controlling sources and product identity, age label, recall date, inspection result, supervision need, storage location, and next check is more useful than a long narrative.",
+            "sourceIds": []
+          },
+          {
+            "text": "When is a small test not appropriate?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Skip informal testing when a recall, emergency, legal restriction, clinical concern, structural question, food-safety uncertainty, unknown hazardous material, or manufacturer prohibition requires an authoritative response first.",
+            "sourceIds": []
+          },
+          {
+            "text": "What evidence should be saved afterward?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Save product identity, age label, recall date, inspection result, supervision need, storage location, and next check. Add the source date, the person who approved the result, and the date or trigger for the next review.",
+            "sourceIds": []
+          },
+          {
+            "text": "What if the first attempt fails?.",
+            "sourceIds": []
+          },
+          {
+            "text": "Stop, protect the affected people and property, and preserve the evidence. Identify the earliest failed checkpoint, change one variable, and decide whether a second bounded test or qualified professional review is the responsible next step.",
+            "sourceIds": []
+          }
+        ]
+      }
+    ],
+    "table": {
+      "caption": "Decision table for the current attempt",
+      "columns": [
+        "Decision point",
+        "Evidence to check",
+        "Continue when",
+        "Stop when"
+      ],
+      "rows": [
+        [
+          "Opening evidence",
+          "the product label, exact model, recall search, current condition, manufacturer instructions, and the child’s observed abilities",
+          "source, date, and scope are recorded",
+          "a controlling fact is missing"
+        ],
+        [
+          "Small test",
+          "a closely supervised first-use period after all checks pass",
+          "the test represents the difficult condition",
+          "a recall, loose small part, accessible battery or magnet, unstable structure, entrapment gap, damage, or child behavior the product does not accommodate"
+        ],
+        [
+          "Owner",
+          "the supervising adult",
+          "one person can stop or escalate the work",
+          "ownership is assumed but not named"
+        ],
+        [
+          "Completion record",
+          "product identity, age label, recall date, inspection result, supervision need, storage location, and next check",
+          "the next reviewer can repeat the decision",
+          "the result depends on memory"
+        ]
+      ]
+    },
+    "sourceIds": [
+      "editorial-01bc305d67e1be",
+      "editorial-cbba26af1c5785",
+      "editorial-2cabcde95061a5"
+    ],
+    "takeaway": "The difficult part of toy label review: compare age guidance before a new activity (nov 2026) is rarely knowing that action is required. It is deciding what to verify first, what to test, and what evidence is strong enough to continue. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   }
 ];
