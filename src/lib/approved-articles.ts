@@ -606,7 +606,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-28T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/understanding-toy-safety-certifications.svg",
-    "excerpt": "Understanding Toy Safety Certifications: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist f...",
+    "excerpt": "Understand what common toy-safety marks and standards mean, what they do not guarantee, and which labels and recall records to verify before buying.",
     "keywords": [
       "understanding toy safety certifications"
     ],
@@ -1181,7 +1181,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-29T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/astm-vs-cpsc-toy-safety-standards.svg",
-    "excerpt": "ASTM vs CPSC Toy Safety Standards: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist for chi...",
+    "excerpt": "Compare ASTM voluntary consensus standards with CPSC rules, testing, labeling, and recall enforcement so caregivers know what evidence to verify.",
     "keywords": [
       "astm vs cpsc toy safety standards"
     ],
@@ -1756,7 +1756,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-30T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/age-appropriate-toy-safety-labels-decoded.svg",
-    "excerpt": "Age-Appropriate Toy Safety Labels Decoded: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
+    "excerpt": "Decode toy age labels, small-parts warnings, skill assumptions, batteries, magnets, and supervision needs before choosing a product for a child.",
     "keywords": [
       "age-appropriate toy safety labels decoded"
     ],
@@ -2331,7 +2331,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-07-31T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/common-toy-safety-mistakes-parents-make.svg",
-    "excerpt": "Common Toy Safety Mistakes Parents Make: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist f...",
+    "excerpt": "Avoid common toy-safety mistakes by checking age guidance, loose parts, batteries, magnets, product condition, recalls, and supervision.",
     "keywords": [
       "common toy safety mistakes parents make"
     ],
@@ -2906,7 +2906,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-03T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/how-to-check-a-toy-recall-list-before-buying.svg",
-    "excerpt": "How to Check a Toy Recall List Before Buying: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checkl...",
+    "excerpt": "Search official toy recall notices by brand, model, and date code before buying, then document the result and stop-use instructions.",
     "keywords": [
       "how to check a toy recall list before buying"
     ],
@@ -3481,7 +3481,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-04T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/safe-toy-materials-plastic-wood-and-fabric-guide.svg",
-    "excerpt": "Safe Toy Materials: Plastic, Wood, and Fabric Guide: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable...",
+    "excerpt": "Compare plastic, wood, and fabric toys by coatings, cleaning, breakage, loose parts, labels, and age-appropriate use rather than material alone.",
     "keywords": [
       "safe toy materials: plastic, wood, and fabric guide"
     ],
@@ -4056,7 +4056,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-05T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/what-is-the-20-toy-rule-and-does-it-work.svg",
-    "excerpt": "What Is the 20 Toy Rule and Does It Work?: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
+    "excerpt": "Learn what the 20 Toy Rule is, where the idea can help with rotation and attention, and which safety and developmental limits still matter.",
     "keywords": [
       "what is the 20 toy rule and does it work?"
     ],
@@ -4631,7 +4631,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-06T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/how-to-implement-the-20-toy-rule-step-by-step.svg",
-    "excerpt": "How to Implement the 20 Toy Rule Step by Step: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable check...",
+    "excerpt": "Use a practical toy-rotation plan to choose, inspect, store, and revisit a smaller active set without treating an arbitrary number as a safety rule.",
     "keywords": [
       "how to implement the 20 toy rule step by step"
     ],
@@ -5206,7 +5206,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-07T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/benefits-of-fewer-toys-for-child-development.svg",
-    "excerpt": "Benefits of Fewer Toys for Child Development: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checkl...",
+    "excerpt": "Explore how fewer available toys may affect attention and play while preserving age fit, variety, accessibility, safety, and a child's individual needs.",
     "keywords": [
       "benefits of fewer toys for child development"
     ],
@@ -5781,7 +5781,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-08-10T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/20-toy-rule-vs-montessori-toy-philosophy.svg",
-    "excerpt": "20 Toy Rule vs Montessori Toy Philosophy: a practical, evidence-aware guide with implementation steps, decision criteria, cautions, and a reusable checklist...",
+    "excerpt": "Compare the 20 Toy Rule with Montessori-inspired toy selection, rotation, independence, order, and age fit without treating either as a universal formula.",
     "keywords": [
       "20 toy rule vs montessori toy philosophy"
     ],
@@ -9376,7 +9376,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/portable-bed-rails-check-bed-fit-and-entrapment-warnings.svg",
     "imageAlt": "Portable Bed Rails: Check Bed Fit and Entrapment Warnings topic field map",
-    "excerpt": "Plan home safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Learn how to verify bed compatibility, mattress gaps, rail condition, and current CPSC entrapment warnings before using a portable bed rail.",
     "keywords": [
       "portable bed rail fit"
     ],
@@ -9693,7 +9693,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/window-blind-cords-a-room-by-room-replacement-plan.svg",
     "imageAlt": "Window Blind Cords: A Room-by-Room Replacement Plan topic field map",
-    "excerpt": "Plan home safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Use a room-by-room plan to identify corded window coverings, prioritize sleeping and play areas, and choose safer replacement options.",
     "keywords": [
       "window blind cord safety"
     ],
@@ -11595,7 +11595,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/home-button-battery-sweep-a-room-by-room-plan.svg",
     "imageAlt": "Home Button Battery Sweep: A Room-by-Room Plan topic field map",
-    "excerpt": "Plan button battery prevention with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Run a room-by-room button battery sweep covering remotes, toys, hearing devices, loose cells, storage, and damaged compartments.",
     "keywords": [
       "home button battery sweep"
     ],
@@ -12229,7 +12229,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/toy-storage-reset-keep-small-parts-and-batteries-separated.svg",
     "imageAlt": "Toy Storage Reset: Keep Small Parts and Batteries Separated topic field map",
-    "excerpt": "Plan toy storage safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Separate small parts, loose batteries, and age-mismatched toys with labeled storage zones and a repeatable family reset routine.",
     "keywords": [
       "toy storage small parts batteries"
     ],
@@ -12546,7 +12546,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/helmet-fit-check-five-points-before-a-bike-ride.svg",
     "imageAlt": "Helmet Fit Check: Five Points Before a Bike Ride topic field map",
-    "excerpt": "Plan bike safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Use a five-point bike helmet fit check covering size, level position, side straps, chin strap, and movement before every ride.",
     "keywords": [
       "bike helmet fit check"
     ],
@@ -12863,7 +12863,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/booster-seat-check-read-the-current-label-before-a-trip.svg",
     "imageAlt": "Booster Seat Check: Read the Current Label Before a Trip topic field map",
-    "excerpt": "Plan car seat safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Verify a booster seat's current label, child fit, belt routing, vehicle position, and recall status before the next trip.",
     "keywords": [
       "booster seat label check"
     ],
@@ -13497,7 +13497,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/toy-chest-check-keep-lid-supports-and-small-parts-safer.svg",
     "imageAlt": "Toy Chest Check: Keep Lid Supports and Small Parts Safer topic field map",
-    "excerpt": "Plan toy storage safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Inspect a toy chest for lid-support, hinge, ventilation, entrapment, and small-part hazards before children use it for storage or play.",
     "keywords": [
       "toy chest lid safety"
     ],
@@ -14131,7 +14131,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/toy-battery-check-confirm-the-compartment-closes-securely.svg",
     "imageAlt": "Toy Battery Check: Confirm the Compartment Closes Securely topic field map",
-    "excerpt": "Plan button battery prevention with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Inspect a toy's battery compartment, fastener, fit, and damage before play, with clear stop-use steps when the closure is not secure.",
     "keywords": [
       "toy battery compartment safety"
     ],
@@ -14448,7 +14448,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/bike-light-check-make-every-rider-easier-to-see.svg",
     "imageAlt": "Bike Light Check: Make Every Rider Easier to See topic field map",
-    "excerpt": "Plan bike safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Check front and rear bike lights, visibility, mounting, batteries, and backup reflectors before a child rides in low-light conditions.",
     "keywords": [
       "bike light visibility safety"
     ],
@@ -14758,14 +14758,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Car Seat Installation Check: Confirm the Manual and Current Label",
-    "seoTitle": "Car Seat Installation Check: Confirm the Manual and Curre...",
+    "seoTitle": "Car Seat Installation Check: Manual, Label and Fit",
     "slug": "car-seat-installation-check-confirm-the-manual-and-current-label",
     "publishDate": "2026-10-22",
     "publishAt": "2026-10-22T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/car-seat-installation-check-confirm-the-manual-and-current-label.svg",
     "imageAlt": "Car Seat Installation Check: Confirm the Manual and Current Label topic field map",
-    "excerpt": "Plan car seat safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Confirm the current car-seat label and manuals, then check installation method, angle, movement, harness fit, and recall status.",
     "keywords": [
       "car seat installation check"
     ],
@@ -15075,14 +15075,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Toy Inspection Log: Record Damage Before the Next Play Session",
-    "seoTitle": "Toy Inspection Log: Record Damage Before the Next Play Se...",
+    "seoTitle": "Toy Inspection Log: Record Damage Before Play",
     "slug": "toy-inspection-log-record-damage-before-the-next-play-session",
     "publishDate": "2026-10-23",
     "publishAt": "2026-10-23T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/toy-inspection-log-record-damage-before-the-next-play-session.svg",
     "imageAlt": "Toy Inspection Log: Record Damage Before the Next Play Session topic field map",
-    "excerpt": "Plan toy safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Use a simple toy inspection log to record cracks, loose fasteners, battery damage, missing parts, and stop-use decisions before play.",
     "keywords": [
       "toy inspection log"
     ],
@@ -15392,7 +15392,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Medicine Cabinet Check: Keep Adult Products Away From Children",
-    "seoTitle": "Medicine Cabinet Check: Keep Adult Products Away From Chi...",
+    "seoTitle": "Medicine Cabinet Check for Homes With Children",
     "slug": "medicine-cabinet-check-keep-adult-products-away-from-children",
     "publishDate": "2026-10-26",
     "publishAt": "2026-10-26T09:00:00-04:00",
@@ -15716,7 +15716,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/toy-anchor-check-secure-heavy-furniture-before-play.svg",
     "imageAlt": "Toy Anchor Check: Secure Heavy Furniture Before Play topic field map",
-    "excerpt": "Plan home safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Check heavy furniture and toy-storage units for tip-over risks, secure compatible anchors, and document a repeatable inspection routine.",
     "keywords": [
       "furniture anchor child safety"
     ],
@@ -16033,7 +16033,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/toy-storage-label-check-keep-age-guidance-with-the-bin.svg",
     "imageAlt": "Toy Storage Label Check: Keep Age Guidance With the Bin topic field map",
-    "excerpt": "Plan toy storage safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Keep age guidance, model details, and small-part warnings with each toy bin so caregivers can make safer sharing and storage decisions.",
     "keywords": [
       "toy storage age label check"
     ],
@@ -16343,14 +16343,14 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Toy Cleaning Check: Follow the Label Before the Next Play Session",
-    "seoTitle": "Toy Cleaning Check: Follow the Label Before the Next Play...",
+    "seoTitle": "Toy Cleaning Check: Follow the Product Label",
     "slug": "toy-cleaning-check-follow-the-label-before-the-next-play-session",
     "publishDate": "2026-10-29",
     "publishAt": "2026-10-29T09:00:00-04:00",
     "category": "Toy Safety",
     "image": "/images/toy-cleaning-check-follow-the-label-before-the-next-play-session.svg",
     "imageAlt": "Toy Cleaning Check: Follow the Label Before the Next Play Session topic field map",
-    "excerpt": "Plan toy safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Match each toy's material and manufacturer instructions to a safer cleaning, rinsing, drying, and damage-check routine.",
     "keywords": [
       "toy cleaning safety"
     ],
@@ -16984,7 +16984,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/toy-label-check-match-the-age-guidance-before-gift-giving.svg",
     "imageAlt": "Toy Label Check: Match the Age Guidance Before Gift Giving topic field map",
-    "excerpt": "Plan toy safety with a practical six-step workflow, evidence checks, implementation guidance, cautions, and a reusable review checklist.",
+    "excerpt": "Read toy age labels before gift giving, then match developmental guidance, small-part warnings, batteries, magnets, and supervision needs.",
     "keywords": [
       "toy age guidance safety"
     ],
@@ -17293,15 +17293,15 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "takeaway": "A durable toy safety workflow makes uncertainty visible. It gives the person doing the work a sequence, a stopping rule, and a record that can be reviewed later. A child-product check is most useful when it combines the label, the child’s current abilities, the condition of the item, and active supervision."
   },
   {
-    "title": "Toy Recall Check: Search the Model Before the Next Play S...",
-    "seoTitle": "Toy Recall Check: Search the Model Before the Next Play S...",
+    "title": "Toy Recall Check: Search the Model Before the Next Play Session",
+    "seoTitle": "Toy Recall Check: Search the Model Before Play",
     "slug": "toy-recall-check-search-the-model-before-the-next-play-session",
     "publishDate": "2026-11-03",
     "publishAt": "2026-11-03T09:00:00-05:00",
     "category": "Toy Safety",
     "image": "/images/toy-recall-check-search-the-model-before-the-next-play-session.svg",
-    "imageAlt": "Toy Recall Check: Search the Model Before the Next Play S... topic field map",
-    "excerpt": "Use a practical six-step toy recall model number workflow with evidence checks, cautions, and a reusable review checklist.",
+    "imageAlt": "Toy recall model-number search and stop-use decision map",
+    "excerpt": "Use the exact brand, model number, and date code to search official toy recalls before the next play session.",
     "keywords": [
       "toy recall model number"
     ],
@@ -17617,7 +17617,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-11-04T09:00:00-05:00",
     "category": "Toy Safety",
     "image": "/images/gift-safety-check-read-labels-and-secure-batteries-before-wrapping.svg",
-    "imageAlt": "Gift Safety Check: Read Labels and Secure Batteries Befor... topic field map",
+    "imageAlt": "Gift safety check for age labels, batteries, magnets, and small parts",
     "excerpt": "Use a practical six-step gift safety labels batteries workflow with evidence checks, cautions, and a reusable review checklist.",
     "keywords": [
       "gift safety labels batteries"
@@ -18251,7 +18251,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "publishAt": "2026-11-09T09:00:00-05:00",
     "category": "Toy Safety",
     "image": "/images/toy-travel-check-keep-age-guidance-and-batteries-with-the-item.svg",
-    "imageAlt": "Toy Travel Check: Keep Age Guidance and Batteries With th... topic field map",
+    "imageAlt": "Toy travel check for age guidance, batteries, and loose parts",
     "excerpt": "Use a practical six-step toy travel safety workflow with evidence checks, cautions, and a reusable review checklist.",
     "keywords": [
       "toy travel safety"
@@ -19203,7 +19203,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
     "category": "Toy Safety",
     "image": "/images/toy-recall-check-match-the-model-number-before-a-playdate.svg",
     "imageAlt": "Toy Recall Check: Match the Model Number Before a Playdate topic field map",
-    "excerpt": "Use a practical six-step toy recall model number workflow with evidence checks, cautions, and a reusable review checklist.",
+    "excerpt": "Match the toy's brand, model, and date code against official recall notices before bringing it to a playdate.",
     "keywords": [
       "toy recall model number"
     ],
@@ -22366,7 +22366,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Toy Label Review: Compare Age Guidance Before a New Activity (Nov 2026)",
-    "seoTitle": "Toy Label Review: Compare Age Guidance Before a New",
+    "seoTitle": "Holiday Toy Label Review: Age Guidance Check",
     "slug": "toy-label-review-compare-age-guidance-before-a-new-activity-nov-2026",
     "publishDate": "2026-11-26",
     "publishAt": "2026-11-26T09:00:00-05:00",
@@ -23000,7 +23000,7 @@ export const approvedResourceArticles: ResourceArticle[] = [
   },
   {
     "title": "Toy Label Review: Compare Age Guidance Before a New Activity (2026-11-30)",
-    "seoTitle": "Toy Label Review: Compare Age Guidance Before a New",
+    "seoTitle": "Toy Label Review Before a New Activity",
     "slug": "toy-label-review-compare-age-guidance-before-a-new-activity-2026-11-30",
     "publishDate": "2026-11-30",
     "publishAt": "2026-11-30T09:00:00-05:00",

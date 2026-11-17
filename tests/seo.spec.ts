@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { approvedResourceArticles } from "../src/lib/approved-articles";
 
 const productionOrigin = "https://saferkids.com";
 const importantRoutes = [
@@ -109,6 +110,24 @@ test.describe("Safer Kids SEO discovery and metadata", () => {
     expect(sitemap).not.toContain("/api/contact");
     expect(sitemap).not.toContain("/api/script.js");
     expect(sitemap).not.toContain("/security.txt");
+  });
+
+  test("approved articles keep unique, complete search metadata", async ({ isMobile }) => {
+    test.skip(isMobile, "source metadata is viewport-independent");
+
+    const titles = approvedResourceArticles.map((article) => article.seoTitle ?? article.title);
+    const descriptions = approvedResourceArticles.map((article) => article.excerpt);
+
+    expect(new Set(titles).size).toBe(titles.length);
+    expect(new Set(descriptions).size).toBe(descriptions.length);
+
+    for (const article of approvedResourceArticles) {
+      for (const value of [article.title, article.seoTitle, article.excerpt, article.imageAlt]) {
+        if (value) expect(value).not.toContain("...");
+      }
+      expect(article.excerpt.length).toBeGreaterThan(50);
+      expect(article.excerpt.length).toBeLessThan(220);
+    }
   });
 
   test("Rybbit analytics proxy snippet is present", async ({ page, isMobile }) => {
